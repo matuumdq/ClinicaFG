@@ -5,6 +5,7 @@ import Main from "./components/Main"
 import Navbar from "./components/Navbar"
 import Options from "./components/Options"
 import Contact from "./components/Contact"
+import Doctors from "./components/Doctors"
 
 function App() {
   
@@ -14,9 +15,10 @@ function App() {
       
         <Navbar />
         <Main />
-        <Contact />
+        <Doctors />
         <Options />
         <Carousel />
+        <Contact />
         <Footer />
     </BrowserRouter>
   )

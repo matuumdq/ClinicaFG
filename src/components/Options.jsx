@@ -29,10 +29,10 @@ const Options = () => {
 
   return (
     <div className="mx-auto w-full flex flex-col items-center gap-10 py-8 ">
-      
+      <h2 className='font-bold text-xl'>Nuestros Servicios</h2>
       <div className="grid gap-4 grid-cols-1 max-w-screen-lg md:grid-cols-2 md:ml-14">
         {options.map((opt) => (
-              <div className="bg-white w-72 h-96 shadow-md rounded m-3" key={opt.id}>
+              <div className="bg-white w-72 h-96 shadow-md rounded m-3 hover:scale-95 ease-linear duration-200" key={opt.id}>
               <div className="h-3/4 w-full">
                 <img className="w-full h-full object-cover rounded-t" src={opt.img} alt={opt.nombre} />
               </div>
