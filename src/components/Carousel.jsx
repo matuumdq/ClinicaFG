@@ -70,7 +70,7 @@ const Carousel = () => {
                 <img
                   alt={slide.nombre}
                   src={slide.imagen}
-                  className="aspect-square mx-auto w-auto md:max-w-xs mb-5 md:mb-0 rounded-lg object-cover"
+                  className="aspect-square mx-auto w-auto md:max-w-xs mb-5 md:mb-0 rounded-lg h-44 md:h-auto object-cover"
                 />
                 <blockquote className="sm:col-span-2 flex flex-col justify-around items-center">
                   <p className="text-xl font-medium text-black">

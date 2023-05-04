@@ -8,11 +8,11 @@ const Navbar = () => {
 
     const [nav, setNav] = useState(false)
   return (
-    <div className=' mx-auto flex justify-between items-center p-4'>
+    <div className='bg-gray-50 h-16 mx-auto flex justify-between items-center p-4'>
         {/* Left */}
         <div className='flex items-center gap-6'> 
-            <img src={logo} alt="logo-cicec" className='h-14 w-14 sm:h-20 sm:w-20 md:h-24 md:w-24' />
-            <h1 className='text-2xl sm:text-3xl lg:text-4xl ml-2 font-bold text-purple-900'>
+            <img src={logo} alt="logo-cicec" className='h-14 w-14' />
+            <h1 className='text-2xl  ml-2 font-bold text-purple-900'>
                 Cicec
             </h1>
         </div>
