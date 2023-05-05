@@ -53,7 +53,7 @@ const Carousel = () => {
   }
 
   return (
-    <div className="relative mx-auto px-4 py-8 mt-8 bg-purple-500/25">
+    <div className="relative mx-auto px-4 pt-8 bg-gradient-to-b from-yellow-500/20 to-amber-400/10">
       {slides.map((slide, index) => (
         <CSSTransition
           key={index}
@@ -70,16 +70,16 @@ const Carousel = () => {
                 <img
                   alt={slide.nombre}
                   src={slide.imagen}
-                  className="aspect-square mx-auto w-auto md:max-w-xs mb-5 md:mb-0 rounded-lg h-44 md:h-auto object-cover"
+                  className="aspect-square mx-auto w-auto md:max-w-xs mb-5 md:mb-0 rounded-lg h-44 md:h-auto max-h-56 object-cover"
                 />
                 <blockquote className="sm:col-span-2 flex flex-col justify-around items-center">
-                  <p className="text-xl font-medium text-black">
+                  <p className="md:text-lg font-light text-black w-3/4 text-center md:text-left">
                     {slide.testimonio}
                   </p>
                   <cite className="mt-8 inline-flex items-center not-italic">
                     <span className="hidden h-px w-6 bg-primary-900 sm:inline-block"></span>
-                    <p className="text-sm uppercase text-primary-900 sm:ms-3">
-                      <strong>{slide.nombre}</strong>, {slide.trabajo}.
+                    <p className="text-sm uppercase text-primary-900 sm:ms-3 italic">
+                      <strong className='not-italic'>{slide.nombre}</strong>, {slide.trabajo}.
                     </p>
                   </cite>
                 </blockquote>
