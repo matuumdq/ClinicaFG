@@ -1,11 +1,12 @@
 import { BrowserRouter } from "react-router-dom"
-import Carousel from "./components/Carousel"
 import Footer from "./components/Footer"
 import Main from "./components/Main"
 import Navbar from "./components/Navbar"
 import Options from "./components/Options"
-import Contact from "./components/Contact"
 import Doctors from "./components/Doctors"
+import Learn from "./components/Learn"
+import Work from "./components/Work"
+import Buy from "./components/Buy"
 
 function App() {
   
@@ -16,9 +17,12 @@ function App() {
         <Navbar />
         <Main />
         <Doctors />
+        <Learn />
+        <Work />
+        <Buy />
         <Options />
-        <Carousel />
-        <Contact />
+        {/* <Carousel /> */}
+        {/* <Contact /> */}
         <Footer />
     </BrowserRouter>
   )

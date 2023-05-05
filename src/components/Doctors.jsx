@@ -25,7 +25,7 @@ const Doctors = () => {
         }
       ];
   return (
-    <div className="w-full bg-gray-200 h-auto px-12">
+    <div className="w-full bg-yellow-400/20 h-auto px-12">
         <h3 className="w-full flex items-center justify-center pt-8 font-bold text-xl">Nuestros Profesionales</h3>
         <ul className="flex flex-col sm:flex-row sm:justify-around items-center py-8 w-full gap-8">
             {doctors.map(doc=>(
