@@ -53,7 +53,8 @@ const Carousel = () => {
   }
 
   return (
-    <div className="relative mx-auto px-4 pt-8 bg-gradient-to-b from-yellow-500/20 to-amber-400/10">
+    <div className="relative mx-auto sm:px-4 pt-8 bg-gradient-to-b from-yellow-500/20 to-amber-400/10">
+      <div className='mx-2 sm:mx-12 border border-black bg-[#F7E1AE]/30 rounded-md'>
       {slides.map((slide, index) => (
         <CSSTransition
           key={index}
@@ -72,8 +73,8 @@ const Carousel = () => {
                   src={slide.imagen}
                   className="aspect-square mx-auto w-auto md:max-w-xs mb-5 md:mb-0 rounded-lg h-44 md:h-auto max-h-56 object-cover"
                 />
-                <blockquote className="sm:col-span-2 flex flex-col justify-around items-center">
-                  <p className="md:text-lg font-light text-black w-3/4 text-center md:text-left">
+                <blockquote className="flex flex-col justify-around items-center">
+                  <p className="md:text-lg font-light text-black w-full md:w-3/4 text-center md:text-left">
                     {slide.testimonio}
                   </p>
                   <cite className="mt-8 inline-flex items-center not-italic">
@@ -92,17 +93,18 @@ const Carousel = () => {
         <div className="block">
           <button
             onClick={handlePrevSlide}
-            className="p-6 rounded-full hover:scale-90 text-slate-950 ease-in-out duration-200 absolute inset-y-0 left-0">
+            className="p-2 sm:p-7 rounded-full hover:scale-90 text-slate-950 ease-in-out duration-200 absolute inset-y-0 left-0 sm:left-10 md:left-12">
             <BsArrowLeftShort size={28} />
           </button>
         </div>
         <div className="block">
           <button
             onClick={handleNextSlide}
-            className="p-6 rounded-full hover:scale-90 text-slate-950 ease-in-out duration-200 absolute inset-y-0 right-0">
+            className="p-2 sm:p-6 rounded-full hover:scale-90 text-slate-950 ease-in-out duration-200 absolute inset-y-0 right-0 sm:right-10 md:right-12">
             <BsArrowRightShort size={28} />
           </button>
         </div>
+      </div>
       </div>
     </div>
   )

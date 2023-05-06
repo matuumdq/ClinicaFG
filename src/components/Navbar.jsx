@@ -32,7 +32,7 @@ const Navbar = () => {
         {nav ? <div className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0'></div> : ''}
 
             {/* Side menu */}
-            <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300' : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300'}>
+            <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300' : 'fixed top-0 left-[-120%] w-[300px] h-screen bg-white z-10 duration-300'}>
                 <AiOutlineClose size={30} className='absolute right-4 top-4 cursor-pointer text-purple-900 hover:scale-110 ease-in duration-300' onClick={() => setNav(!nav)}/>
             <img src={logo} alt="logo-cicec" className='h-14 w-14 md:h-24 md:w-24 mx-auto mt-4' />
                 <h2 className='text-2xl font-bold text-purple-900 p-4'>Cicec</h2>
