@@ -54,7 +54,7 @@ const Carousel = () => {
 
   return (
     <div className="relative mx-auto sm:px-4 pt-8 bg-gradient-to-b from-yellow-500/20 to-amber-400/10">
-      <div className='mx-2 sm:mx-12 border border-black bg-[#F7E1AE]/30 rounded-md'>
+      <div className='mx-2 sm:mx-12 border border-black bg-[#F7E1AE]/30 rounded-md shadow-lg border-opacity-10'>
       {slides.map((slide, index) => (
         <CSSTransition
           key={index}

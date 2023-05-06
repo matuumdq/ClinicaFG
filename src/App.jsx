@@ -1,32 +1,21 @@
-import { BrowserRouter } from "react-router-dom"
-import Main from "./components/Main"
-import Navbar from "./components/Navbar"
-import Doctors from "./components/Doctors"
-import Learn from "./components/Learn"
-import Work from "./components/Work"
-import Buy from "./components/Buy"
-import Supplies from "./components/Supplies"
-import Carousel from "./components/Carousel"
-import Footer from "./components/Footer"
-import Workshop from "./components/Workshop"
-import Form from "./components/Form"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Home from "./components/Home"
+import MainLayout from "./components/MainLayout"
+import KnowUs from "./components/KnowUs"
+import Tratamientos from "./components/Tratamientos"
 
 function App() {
   
 
   return (
     <BrowserRouter>
-        <Navbar />
-        <Main />
-        <Doctors />
-        <Learn />
-        <Work />
-        <Buy />
-        <Supplies />
-        <Workshop />
-        <Carousel />
-        <Form />
-        <Footer />
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<Home />}/>
+            <Route path="/conocenos" element={<KnowUs/>}/>
+            <Route path="/tratamientos" element={<Tratamientos/>}/>
+          </Route>
+        </Routes>
     </BrowserRouter>
   )
 }

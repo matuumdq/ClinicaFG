@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import { Toaster, toast} from "sonner"
 
 const Form = () => {
@@ -7,7 +7,6 @@ const Form = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [messages, setMessages] = useState('')
-
     const sendEmail = (e) => {
     e.preventDefault();
 
@@ -16,16 +15,16 @@ const Form = () => {
         return
     }
 
-    // emailjs.sendForm(import.meta.env.VITE_SERVICE, import.meta.env.VITE_TEMPLATE, form.current, import.meta.env.VITE_USER_API)
-    //   .then((result) => {
-    //       toast.success('Email enviado satisfactoriamente')
-    //         e.target.reset()
-    //         setName('')
-    //         setEmail('')
-    //         setMessages('')
-    //   }, (error) => {
-    //       console.log(error.text);
-    //   });
+    emailjs.sendForm(import.meta.env.VITE_SERVICE, import.meta.env.VITE_TEMPLATE, form.current, import.meta.env.VITE_USER_API)
+      .then((result) => {
+          toast.success('Email enviado satisfactoriamente')
+            e.target.reset()
+            setName('')
+            setEmail('')
+            setMessages('')
+      }, (error) => {
+          console.log(error.text);
+      });
     };
 
   return (
