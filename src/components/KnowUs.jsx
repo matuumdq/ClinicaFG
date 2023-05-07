@@ -1,45 +1,7 @@
 import { Link } from "react-router-dom"
+import { personal } from "../db"
 
 const KnowUs = () => {
-
-    const personal = [
-          {
-            id: 0,
-            nombre: "Alfredo",
-            especialidad: "Peeling",
-            img: "https://previews.123rf.com/images/yupiramos/yupiramos1607/yupiramos160705616/59613224-el-doctor-avatar-perfil-aisl%C3%B3-el-icono-gr%C3%A1fico-del-ejemplo-del-vector.jpg",
-          },
-          {
-            id: 1,
-            nombre: "Pedro",
-            especialidad: "Dermatologo",
-            img: "https://www.shutterstock.com/shutterstock/photos/1007777092/display_1500/stock-vector-medical-doctor-profile-icon-male-doctor-avatar-vector-illustration-1007777092.jpg",
-          },
-          {
-            id: 2,
-            nombre: "Juan",
-            especialidad: "Hifu",
-            img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
-          },
-          {
-            id: 3,
-            nombre: "Alfonso",
-            especialidad: "Endopeel",
-            img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
-          },
-          {
-            id: 4,
-            nombre: "Nacho",
-            especialidad: "Hilos",
-            img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
-          },
-          {
-            id: 5,
-            nombre: "Matias",
-            especialidad: "Implante Capilar",
-            img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
-          }
-    ]
 
   return (
     <div className="w-full h-auto py-6 sm:py-0">
@@ -52,7 +14,7 @@ const KnowUs = () => {
         <img  className="w-1/3 justify-self-end hidden sm:block rounded-l-xl" src="https://res.cloudinary.com/dnqmez68n/image/upload/v1683410825/imgdoc_vbburu.jpg" alt="doc" />
       </div>
 
-			<div className="bg-gradient-to-b from-white to-yellow-500/20 h-auto min-h-[30vh] py-14 flex flex-col justify-center gap-8 w-full ">
+			<div className="bg-gradient-to-b from-transparent to-yellow-500/20 h-auto min-h-[30vh] py-14 flex flex-col justify-center gap-8 w-full ">
 				<div className="flex flex-col sm:flex-row items-center justify-around">
 					<p className="text-3xl font-semibold text-violet-900/60 mx-5 max-w-sm tracking-widest">Somos la Clinica Internacional lider en el mundo</p>
 					<Link to='/tratamientos' className="my-8 w-56 border border-yellow-600/50 px-10 py-2 rounded bg-white text-black font-thin hover:cursor-pointer hover:scale-105 shadow-md ease-in duration-300 hover:text-black tracking-widest text-center">Conoce nuestros tratamientos</Link>
