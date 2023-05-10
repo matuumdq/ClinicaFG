@@ -28,7 +28,7 @@ const Form = () => {
     };
 
   return (
-    <div className='px-12 bg-gradient-to-b from-amber-400/10 to-white'>
+    <div id='form' className='px-12 bg-gradient-to-b from-amber-400/10 to-white'>
         <h2 className="font-bold text-2xl text-center pt-8 uppercase font-mono">Contactanos</h2>
         <form 
             ref={form}

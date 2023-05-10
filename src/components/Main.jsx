@@ -9,7 +9,10 @@ const Main = () => {
             Pequeños cambios,
           </p>
           <p className="uppercase font-semibold text-3xl"> una gran diferencia</p>
-          <p className="mt-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repellendus quisquam nisi ipsum cumque, iusto pariatur modi ad dolor, officiis mollitia aut impedit ea doloremque!</p>
+          <div className="flex flex-col gap-2 mt-5">
+            <p className="">Estamos aquí para ayudarte a lograr la mejor versión de ti mismo</p>
+            <p className="">¡Confía en nosotros y descubre la gran diferencia que un pequeño cambio puede hacer en tu vida!</p>
+          </div>
         </div>
 
       </div>

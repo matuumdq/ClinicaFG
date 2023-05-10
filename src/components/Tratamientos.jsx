@@ -6,7 +6,7 @@ const Tratamientos = () => {
       <div className="w-full min-h-[20vh] md:min-h-[40vh] flex flex-col justify-center items-center bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.6),rgba(255,255,255,0.3)),url('https://i0.wp.com/tiendadelapiel.com.py/tienda/wp-content/uploads/2021/12/Mascarilla-activos-basicos-del-skincare-tienda-de-la-piel-paraguay.jpg?resize=1280%2C780&ssl=1')] bg-cover bg-top lg:bg-top">
         <h2 className="h-full w-full text-center uppercase font-mono font-bold text-xl md:text-5xl text-white">Tratamientos</h2>
       </div>
-      <div className=" max-w-screen-md mx-6 sm:mx-auto">
+      <div id="tratamientos" className=" max-w-screen-md mx-6 sm:mx-auto">
         <h3 className="font-bold text-2xl text-center py-8 uppercase font-mono max-w-sm mx-auto">Mira todos los tratamientos que tenemos para ofrecerte</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 content-center place-items-center h-auto gap-10 py-8 ">
           {tratamientos.map((tratamiento) => (
@@ -21,7 +21,7 @@ const Tratamientos = () => {
         </div>
       </div>
 
-      <div className=" max-w-screen-md mx-6 sm:mx-auto">
+      <div id="cursos" className=" max-w-screen-md mx-6 sm:mx-auto">
         <h3 className="font-bold text-2xl text-center py-8 uppercase font-mono">Nuestros Cursos</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 content-center place-items-center h-auto gap-10 py-8 ">
           {cursos.map((curso) => (

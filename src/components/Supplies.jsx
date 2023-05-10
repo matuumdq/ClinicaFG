@@ -4,12 +4,12 @@ const Supplies = () => {
           <div className="w-full text-center pt-4">
               <h3 className="py-8 text-4xl uppercase font-bold">Productos</h3>
               <p className="uppercase text-sm font-thin">Cremas • Mascarillas</p>
-              <button className="my-8 border border-yellow-600/50 px-10 py-2 rounded bg-white text-black font-thin hover:cursor-pointer hover:scale-105 shadow-md ease-in duration-300 hover:text-black tracking-widest">Ver más</button>
+              <button className="my-8 border border-yellow-600/50 px-10 py-2 rounded bg-white text-black font-thin hover:cursor-not-allowed hover:scale-105 shadow-md ease-in duration-300 hover:text-black tracking-widest">Ver más</button>
           </div>
           <div className="w-full text-center">
               <h3 className="py-8 text-4xl uppercase font-bold">Insumos</h3>
               <p className="uppercase text-sm font-thin">Maquinas</p>
-              <button className="my-8 border border-yellow-600/50 px-10 py-2 rounded bg-white text-black font-thin hover:cursor-pointer hover:scale-105 shadow-md ease-in duration-300 hover:text-black tracking-widest">Ver más</button>
+              <button className="my-8 border border-yellow-600/50 px-10 py-2 rounded bg-white text-black font-thin hover:cursor-not-allowed hover:scale-105 shadow-md ease-in duration-300 hover:text-black tracking-widest">Ver más</button>
               </div>
       </div>
     )

@@ -9,7 +9,7 @@ const Workshop = () => {
                     <h3 className="uppercase text-3xl font-bold">Workshops</h3>
                 </div>
                 <div className="sm:w-2/3 md:w-1/2 lg:w-1/3 mx-10 ">
-                    <p className="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste beatae laudantium quam minima magni expedita voluptatibus autem exercitationem omnis labore nemo at neque sint commodi, sequi incidunt hic sunt ipsum rerum illum deleniti? Molestiae dignissimos eveniet veniam? Ut, deserunt nemo?</p>
+                    <p className="text-sm font-light">Nuestros talleres de estética son una excelente oportunidad para aquellos que deseen expandir sus conocimientos en los tratamientos y técnicas más avanzadas en el cuidado de la piel y el cabello. Están diseñados para profesionales de la estética, así como para aquellos que recién comienzan en el campo y desean aprender de expertos en cada área.</p>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-full mx-10 mt-12 md:mx-20">

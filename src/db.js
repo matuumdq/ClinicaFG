@@ -2,22 +2,22 @@ export const doctors = [
     {
       id: 1,
       nombre: "Pedro",
-      caracteristicas: "Lolas",
-      frase: 'Lorem ipsum dolor sit amet consectetur. Voluptatum molestiae architecto itaque.',
+      caracteristicas: "Hilos Tensores",
+      frase: 'Mi enfoque en hilos tensores ofrece tratamientos seguros y efectivos para lucir más jóvenes y radiantes sin necesidad de cirugía',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
     },
     {
       id: 2,
       nombre: "Juan",
       caracteristicas: "Peeling",
-      frase: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque.',
+      frase: 'Mi maestría en el peeling facial me permite personalizar cada tratamiento para lograr una piel saludable, renovada y radiante según las necesidades y objetivos de cada paciente',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
     },
     {
       id: 3,
       nombre: "Alfonso",
       caracteristicas: "Capilar",
-      frase: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quam. Voluptatum.',
+      frase: 'Brindo soluciones efectivas y personalizadas para cada paciente, asegurando resultados duraderos y satisfactorios en problemas capilares',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
     }
   ];
