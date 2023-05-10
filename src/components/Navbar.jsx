@@ -33,17 +33,17 @@ const Navbar = () => {
         {nav ? <div className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0'></div> : ''}
 
             {/* Side menu */}
-            <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300' : 'fixed top-0 left-[-120%] w-[300px] h-screen bg-white z-10 duration-300'}>
+            <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-20 duration-300' : 'fixed top-0 left-[-120%] w-[300px] h-screen bg-white z-10 duration-300'}>
                 <AiOutlineClose size={30} className='absolute right-4 top-4 cursor-pointer text-purple-900 hover:scale-110 ease-in duration-300' onClick={() => setNav(!nav)}/>
-            <Link to='/'>
+            <Link to='/' onClick={() => setNav(false) }>
                 <img src={logo} alt="logo-cicec" className='h-14 w-14 md:h-24 md:w-24 mx-auto mt-4' />
-            </Link>
                 <h2 className='text-2xl font-bold text-purple-900 p-4'>Cicec</h2>
+            </Link>
                 <nav>
                     <ul className='flex flex-col p-4 text-gray-800'>
-                        <Link to={'/conocenos'} className='text-xl py-4 flex'><FaHandHoldingMedical size={25} className='mr-4'/>Conocenos</Link>
-                        <Link to='/tratamientos' className='text-xl py-4 flex'><FaSyringe size={25} className='mr-4'/> Tratamientos</Link>
-                        <Link to='/tratamientos' className='text-xl py-4 flex'><GrMail size={25} className='mr-4'/> Contactanos</Link>
+                        <Link to='/conocenos' onClick={() => setNav(false) } className='text-xl py-4 flex'><FaHandHoldingMedical size={25} className='mr-4'/>Conocenos</Link>
+                        <Link to='/tratamientos' onClick={() => setNav(false) } className='text-xl py-4 flex'><FaSyringe size={25} className='mr-4'/> Tratamientos</Link>
+                        <Link to='/tratamientos' onClick={() => setNav(false) } className='text-xl py-4 flex'><GrMail size={25} className='mr-4'/> Contactanos</Link>
                     </ul>
                 </nav>
             </div>
