@@ -7,7 +7,7 @@ const Work = () => {
             <p className="uppercase text-yellow-500/70 font-semibold text-sm">Hibrido</p>
             <h3 className="py-8 text-4xl uppercase font-bold">Cursos</h3>
             <p className="uppercase text-sm font-thin">Hilos Tensores • Hifu</p>
-            <Link to='/tratamientos'>
+            <Link to='tratamientos'>
               <button className="my-8 border border-yellow-600/50 px-10 py-2 rounded bg-white text-black font-thin hover:cursor-pointer hover:scale-105 shadow-md ease-in duration-300 hover:text-black tracking-widest">Ver más</button>
             </Link>
         </div>
