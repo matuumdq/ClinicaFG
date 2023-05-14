@@ -48,7 +48,7 @@ const KnowUs = () => {
             {personal.map((doc => (
                 <div key={doc.id} className="flex flex-col items-center justify-center border border-black px-4 py-2 max-w-[200px] h-auto max-h-96">
                     <img src={doc.img} alt={doc.nombre} className="max-h-44 h-auto w-1/3 sm:w-1/2 lg:w-1/4"/>
-                    <p className="uppercase text-primary-900 text-center font-bold">Dr. {doc.nombre}</p>
+                    <p className="uppercase text-primary-900 text-center font-bold">Dra. {doc.nombre}</p>
                     <p className="text-sm uppercase text-primary-900 text-center italic">{doc.especialidad}</p>
                 </div>
             )))}

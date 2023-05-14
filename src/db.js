@@ -1,64 +1,64 @@
 export const doctors = [
     {
       id: 1,
-      nombre: "Pedro",
+      nombre: "Juana",
       caracteristicas: "Hilos Tensores",
       frase: 'Mi enfoque en hilos tensores ofrece tratamientos seguros y efectivos para lucir más jóvenes y radiantes sin necesidad de cirugía',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093116/doct_jgxyim.jpg",
     },
     {
       id: 2,
-      nombre: "Juan",
+      nombre: "Amelia",
       caracteristicas: "Peeling",
       frase: 'Mi maestría en el peeling facial me permite personalizar cada tratamiento para lograr una piel saludable, renovada y radiante según las necesidades y objetivos de cada paciente',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct2_ypkqmw.jpg",
     },
     {
       id: 3,
-      nombre: "Alfonso",
+      nombre: "Evelin",
       caracteristicas: "Capilar",
       frase: 'Brindo soluciones efectivas y personalizadas para cada paciente, asegurando resultados duraderos y satisfactorios en problemas capilares',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct3_geudgd.jpg",
     }
   ];
 
   export const personal = [
     {
       id: 0,
-      nombre: "Alfredo",
+      nombre: "Lucia",
       especialidad: "Peeling",
-      img: "https://previews.123rf.com/images/yupiramos/yupiramos1607/yupiramos160705616/59613224-el-doctor-avatar-perfil-aisl%C3%B3-el-icono-gr%C3%A1fico-del-ejemplo-del-vector.jpg",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct4_me0nxx.jpg",
     },
     {
       id: 1,
-      nombre: "Pedro",
+      nombre: "Morena",
       especialidad: "Dermatologo",
-      img: "https://www.shutterstock.com/shutterstock/photos/1007777092/display_1500/stock-vector-medical-doctor-profile-icon-male-doctor-avatar-vector-illustration-1007777092.jpg",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct5_cv63cb.jpg",
     },
     {
       id: 2,
-      nombre: "Juan",
+      nombre: "Evelin",
       especialidad: "Hifu",
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct3_geudgd.jpg",
     },
     {
       id: 3,
-      nombre: "Alfonso",
+      nombre: "Amelia",
       especialidad: "Endopeel",
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct2_ypkqmw.jpg",
     },
     {
       id: 4,
-      nombre: "Nacho",
+      nombre: "Juana",
       especialidad: "Hilos",
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093116/doct_jgxyim.jpg",
     },
-    {
-      id: 5,
-      nombre: "Matias",
-      especialidad: "Implante Capilar",
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
-    }
+    // {
+    //   id: 5,
+    //   nombre: "Matias",
+    //   especialidad: "Implante Capilar",
+    //   img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
+    // }
 ]
 
 export const tratamientos = [
