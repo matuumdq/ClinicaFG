@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className='hidden md:flex items-center cursor-pointer font-medium gap-4 p-1'>
                 <Link to='/conocenos' className='border-b-2 border-transparent hover:border-purple-600 hover:text-purple-600 ease-in duration-300'>Conocenos</Link>
                 <Link to='/tratamientos' className='border-b-2 border-transparent hover:border-purple-600 hover:text-purple-600 ease-in duration-300'>Tratamientos</Link>
-                <Link to='/conocenos' className='border-b-2 border-transparent hover:border-purple-600 hover:text-purple-600 ease-in duration-300'>Contactanos</Link>
+                <Link to='/contactanos' className='border-b-2 border-transparent hover:border-purple-600 hover:text-purple-600 ease-in duration-300'>Contactanos</Link>
             </div>
             <div className='cursor-pointer md:hidden' onClick={() => setNav(!nav)}>
                 <AiOutlineMenu size={30} className='text-purple-900 hover:scale-110 ease-in duration-300'/>
@@ -42,7 +42,7 @@ const Navbar = () => {
                     <ul className='flex flex-col p-4 text-gray-800'>
                         <Link to='/conocenos' onClick={() => setNav(false) } className='text-xl py-4 flex'><FaHandHoldingMedical size={25} className='mr-4'/>Conocenos</Link>
                         <Link to='/tratamientos' onClick={() => setNav(false) } className='text-xl py-4 flex'><FaSyringe size={25} className='mr-4'/> Tratamientos</Link>
-                        <Link to='/tratamientos' onClick={() => setNav(false) } className='text-xl py-4 flex'><GrMail size={25} className='mr-4'/> Contactanos</Link>
+                        <Link to='/contactanos' onClick={() => setNav(false) } className='text-xl py-4 flex'><GrMail size={25} className='mr-4'/> Contactanos</Link>
                     </ul>
                 </nav>
             </div>

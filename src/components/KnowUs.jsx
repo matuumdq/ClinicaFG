@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { personal } from "../db"
+import { Parallax } from "react-parallax"
 
 const KnowUs = () => {
 
@@ -13,7 +14,7 @@ const KnowUs = () => {
           </div>	
         <img  className="w-1/3 justify-self-end hidden sm:block rounded-l-xl" src="https://res.cloudinary.com/dnqmez68n/image/upload/v1683410825/imgdoc_vbburu.jpg" alt="doc" />
       </div>
-
+      
 			<div className="bg-gradient-to-b from-transparent to-yellow-500/20 h-auto min-h-[30vh] py-14 flex flex-col justify-center gap-8 w-full ">
 				<div className="flex flex-col sm:flex-row items-center justify-around">
 					<p className="text-3xl font-semibold text-violet-900/60 mx-5 max-w-sm tracking-widest">Somos la Clinica Internacional lider en el mundo</p>
@@ -36,10 +37,11 @@ const KnowUs = () => {
 					</div>
 			</div>
 
-
-        <div className="w-full min-h-[20vh] md:min-h-[40vh] flex flex-col justify-center items-center bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.6),rgba(255,255,255,0.3)),url('https://thumbs.dreamstime.com/b/young-team-group-doctors-37813851.jpg')] bg-cover bg-top lg:bg-top">
-            <h2 className="h-full w-full text-center uppercase font-mono font-bold text-xl md:text-5xl text-white">Nuestros Doctores</h2>
-        </div>
+      <Parallax bgImage="https://thumbs.dreamstime.com/b/young-team-group-doctors-37813851.jpg" bgImageAlt="the cat" strength={400} className="">
+            <div className="w-full min-h-[20vh] md:min-h-[40vh] flex flex-col justify-center items-center ">
+                <h2 className="h-full w-full text-center uppercase font-mono font-bold text-xl md:text-5xl text-black">Nuestros Doctores</h2>
+            </div>
+        </Parallax>
         <div className="flex flex-col justify-center items-center pt-8">
             <p className="font-thin uppercase text-xs pb-4">Un equipo apasionado</p>
             <h3 className="text-violet-900/70 font-bold text-2xl text-center">Converti tus Sueños en Realidad</h3>
