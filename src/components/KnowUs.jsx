@@ -10,7 +10,7 @@ const KnowUs = () => {
           <div className="max-w-sm flex flex-col my-auto ml-4 sm:mx-auto h-full">
             <p className="uppercase text-xs">centro internacional en clinica estetica y cosmiatria</p>
             <h2 className="text-3xl md:text-4xl font-bold text-violet-900/60">Sobre Nuestra Clinica</h2>
-            <div className="flex flex-col mt-5 gap-2 text-xs italic">
+            <div className="flex flex-col mt-5 gap-2 italic">
               <p>Somos una clínica de estética que ofrece una amplia variedad de tratamientos personalizados de alta calidad</p>
               <p>En CICEC, nos enfocamos en ayudarte a alcanzar tus objetivos de belleza y bienestar, y creemos que cada pequeño cambio cuenta. ¡Visítanos y descubre todo lo que podemos hacer por ti!</p>
             </div>
@@ -46,7 +46,7 @@ const KnowUs = () => {
             </div>
         </Parallax>
         <div className="flex flex-col justify-center items-center pt-8">
-            <p className="font-thin uppercase text-xs pb-4">Un equipo apasionado</p>
+            <p className="uppercase text-sm pb-4">Un equipo apasionado</p>
             <h3 className="text-violet-900/70 font-bold text-2xl text-center">Converti tus Sueños en Realidad</h3>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 content-center place-items-center h-auto w-full gap-10 py-8 mx-auto max-w-screen-md">

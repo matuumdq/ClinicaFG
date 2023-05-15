@@ -65,42 +65,42 @@ export const tratamientos = [
     {
       id: 0,
       name: "Peeling",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      explanation: '¡Descubre el secreto de una piel radiante! Renueva tu cutis, elimina imperfecciones y revela una apariencia rejuvenecida. ¡Dile adiós a las manchas y arrugas, y dale la bienvenida a una piel deslumbrante y llena de luminosidad!',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 250
     },
     {
       id: 1,
-      name: "Hilos Tensores",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      name: "Hilos Mágicos",
+      explanation: '¡Experimenta el poder de la juventud con nuestro innovador tratamiento de Hilos Tensores! Reafirma, levanta y rejuvenece tu rostro en un instante, devolviéndote una apariencia fresca, natural y sin cirugía. ¡Dale a tu piel el impulso que merece!',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 500
     },
     {
       id: 2,
       name: "Masoterapia",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      explanation: '¡Regálate un momento de puro deleite! Relaja cuerpo y mente mientras nuestros expertos masajistas deshacen cada nudo, liberando tensiones y devolviéndote la vitalidad que mereces. ¡Déjate consentir y renueva tu bienestar hoy mismo!',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 700
     },
     {
       id: 3,
       name: "Micropigmentacion",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      explanation: '¡Potencia tu belleza natural con la Micropigmentación, el secreto de una apariencia impecable las 24 horas del día! Olvídate del maquillaje diario y despierta con cejas perfectas, labios sensuales y ojos cautivadores. ¡Realza tu encanto y simplifica tu rutina de belleza!',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 900
     },
     {
       id: 4,
       name: "Implante Capilar",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      explanation: 'Recupera la confianza y el abundante cabello con nuestro revolucionario Implante Capilar. Disfruta de una melena natural, densa y radiante. ¡Vuelve a lucir orgulloso tu cabellera!',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 300
     },
     {
       id: 5,
       name: "Hifu",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      explanation: '¡Eleva tu belleza a nuevas alturas! Experimenta un lifting facial sin cirugía, tensando y rejuveneciendo tu piel de forma increíble. Deslumbra con una apariencia fresca y radiante!',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 1000
     }
@@ -109,43 +109,43 @@ export const tratamientos = [
   export const cursos = [
     {
       id: 0,
-      name: "Peeling",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      name: "Máster en Peeling",
+      explanation: 'Conviértete en un experto en belleza y domina el arte del Peeling. Aprende las técnicas más avanzadas para transformar la piel, ofreciendo resultados sorprendentes, volviéndote el héroe de la apariencia radiante.',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 250
     },
     {
       id: 1,
-      name: "Hilos Tensores",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      name: "Micropigmentación de Labios",
+      explanation: 'Desata tu creatividad y aprende las técnicas más avanzadas. Descubre cómo realzar la belleza natural de los labios, creando apariencias sensuales, atrevidas y sorprendentes. ¡Brindarás a tus pacientes un look espectacular!',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 500
     },
     {
       id: 2,
-      name: "Masoterapia",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      name: "Microimplante Capilar",
+      explanation: 'Abre las puertas a un futuro prometedor en tu formación profesional. Aprenderás técnicas avanzadas para devolver la confianza a aquellos que desean recuperar su cabello de forma natural y duradera.',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 700
     },
     {
       id: 3,
-      name: "Micropigmentacion",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      name: "MELA",
+      explanation: 'Aprende los métodos más efectivas para limpiar y revitalizar la piel, brindando a tus clientes un cutis impecable y lleno de luminosidad. ¡Destaca en el mundo de la estética y transforma vidas a través de la belleza!',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 900
     },
     {
       id: 4,
-      name: "Implante Capilar",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      name: "Máster en Glúteos",
+      explanation: '¡Eleva tus habilidades en la estética corporal a un nuevo nivel! Aprende las técnicas más avanzadas para tonificar, levantar y esculpir los glúteos, brindando a tus pacientes una figura perfecta para que se sientan más seguros y atractivos.',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 300
     },
     {
       id: 5,
-      name: "Hifu",
-      explanation: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit possimus ad quam vero fugiat error?',
+      name: "Máster en Hilos Cosmetológicos",
+      explanation: 'Transforma rostros, cambiando para bien las vidas de tus pacientes. Aprenderás a aplicar técnicas vanguardistas para reducir la flacidez facial y obtener resultados duraderos y espectaculares.',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 1000
     }
