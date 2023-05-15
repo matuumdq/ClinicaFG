@@ -8,10 +8,10 @@ export const doctors = [
     },
     {
       id: 2,
-      nombre: "Amelia",
+      nombre: "Alberto",
       caracteristicas: "Peeling",
       frase: 'Mi maestría en el peeling facial me permite personalizar cada tratamiento para lograr una piel saludable, renovada y radiante según las necesidades y objetivos de cada paciente',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct2_ypkqmw.jpg",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684167391/doc_myich9.jpg",
     },
     {
       id: 3,
