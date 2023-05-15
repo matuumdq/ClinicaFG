@@ -10,7 +10,10 @@ const KnowUs = () => {
           <div className="max-w-sm flex flex-col my-auto ml-4 sm:mx-auto h-full">
             <p className="uppercase text-xs">centro internacional en clinica estetica y cosmiatria</p>
             <h2 className="text-3xl md:text-4xl font-bold text-violet-900/60">Sobre Nuestra Clinica</h2>
-            <p className="text-xs py-5 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quo numquam consequuntur, reiciendis excepturi a eveniet deleniti quibusdam enim, magni et quidem eligendi quia minima alias debitis, velit voluptate voluptatibus!</p>
+            <div className="flex flex-col mt-5 gap-2 text-xs italic">
+              <p>Somos una clínica de estética que ofrece una amplia variedad de tratamientos personalizados de alta calidad</p>
+              <p>En CICEC, nos enfocamos en ayudarte a alcanzar tus objetivos de belleza y bienestar, y creemos que cada pequeño cambio cuenta. ¡Visítanos y descubre todo lo que podemos hacer por ti!</p>
+            </div>
           </div>	
         <img  className="w-1/3 justify-self-end hidden sm:block rounded-l-xl" src="https://res.cloudinary.com/dnqmez68n/image/upload/v1683410825/imgdoc_vbburu.jpg" alt="doc" />
       </div>
@@ -37,7 +40,7 @@ const KnowUs = () => {
 					</div>
 			</div>
 
-      <Parallax bgImage="https://thumbs.dreamstime.com/b/young-team-group-doctors-37813851.jpg" bgImageAlt="the cat" strength={400} className="">
+      <Parallax bgImage="https://thumbs.dreamstime.com/b/young-team-group-doctors-37813851.jpg" bgImageAlt="the cat" strength={300} className="">
             <div className="w-full min-h-[20vh] md:min-h-[40vh] flex flex-col justify-center items-center ">
                 <h2 className="h-full w-full text-center uppercase font-mono font-bold text-xl md:text-5xl text-black">Nuestros Doctores</h2>
             </div>
