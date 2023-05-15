@@ -25,9 +25,9 @@ export const doctors = [
   export const personal = [
     {
       id: 0,
-      nombre: "Lucia",
-      especialidad: "Peeling",
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct4_me0nxx.jpg",
+      nombre: "Franco Gomez",
+      especialidad: "Medicina Estetica",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/franco_cbmhve.png",
     },
     {
       id: 1,
@@ -53,8 +53,14 @@ export const doctors = [
       especialidad: "Hilos",
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093116/doct_jgxyim.jpg",
     },
+    {
+      id: 5,
+      nombre: "Lucia",
+      especialidad: "Peeling",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct4_me0nxx.jpg",
+    },
     // {
-    //   id: 5,
+    //   id: 6,
     //   nombre: "Matias",
     //   especialidad: "Implante Capilar",
     //   img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
