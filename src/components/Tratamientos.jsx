@@ -18,8 +18,8 @@ const Tratamientos = () => {
               <div className="absolute z-10 text-white mx-4 mt-2 px-2 py-1 rounded-lg bg-amber-400/80 cursor-default">${tratamiento.price}</div>
               <img className="md:w-full rounded-t-md" src={tratamiento.img} alt={tratamiento.name} />
               <p className="mx-4 uppercase font-semibold">{tratamiento.name}</p>
-              <p className="text-sm mx-4 font-thin italic">{tratamiento.explanation}</p>
-              <a href={msg} target="_blank" rel="noreferrer" className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-white">Mas Informacion</a>
+              <p className="mx-4 font-thin italic">{tratamiento.explanation}</p>
+              <a href={msg} target="_blank" rel="noreferrer" className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700">Mas Informacion</a>
             </div>
           ))}
         </div>
@@ -33,8 +33,8 @@ const Tratamientos = () => {
               <div className="absolute z-10 text-white mx-4 mt-2 px-2 py-1 rounded-lg bg-amber-400/80 cursor-default">${curso .price}</div>
               <img className="md:w-full rounded-t-md" src={curso.img} alt={curso.name} />
               <p className="mx-4 uppercase font-semibold">{curso.name}</p>
-              <p className="text-sm mx-4 font-thin italic">{curso.explanation}</p>
-              <a href={msgcurso} target="_blank" rel="noreferrer" className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-white">Mas Informacion</a>
+              <p className="mx-4 font-thin italic">{curso.explanation}</p>
+              <a href={msgcurso} target="_blank" rel="noreferrer" className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700">Mas Informacion</a>
             </div>
           ))}
         </div>

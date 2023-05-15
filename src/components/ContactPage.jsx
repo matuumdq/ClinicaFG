@@ -37,7 +37,7 @@ const ContactPage = () => {
                 <h2 className="h-full w-full text-center uppercase font-mono font-bold text-xl md:text-5xl text-white">Contactanos</h2>
             </div>
         </Parallax>
-        <h3 className="font-bold text-2xl text-center py-8 uppercase font-mono max-w-sm mx-auto">Si tenes alguna duda, no dudes en consultarnos</h3>
+        <h3 className="font-bold text-2xl text-center py-8 uppercase font-mono max-w-sm mx-auto">Si tenes alguna duda, puedes consultarnos</h3>
         <div id='form' className='px-12'>
         <form 
             ref={form}
