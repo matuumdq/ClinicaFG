@@ -1,10 +1,10 @@
 export const doctors = [
     {
       id: 1,
-      nombre: "Juana",
-      caracteristicas: "Hilos Tensores",
-      frase: 'Mi enfoque en hilos tensores ofrece tratamientos seguros y efectivos para lucir más jóvenes y radiantes sin necesidad de cirugía',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093116/doct_jgxyim.jpg",
+      nombre: "Franco Gomez",
+      caracteristicas: "Medicina Estetica",
+      frase: 'Mi objetivo es brindar resultados excepcionales mientras me aseguro de que mis pacientes se sientan cómodos y confiados durante todo el proceso',
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/franco_cbmhve.png",
     },
     {
       id: 2,
@@ -85,8 +85,8 @@ export const tratamientos = [
     },
     {
       id: 3,
-      name: "Micropigmentacion",
-      explanation: '¡Potencia tu belleza natural con la Micropigmentación, el secreto de una apariencia impecable las 24 horas del día! Olvídate del maquillaje diario y despierta con cejas perfectas, labios sensuales y ojos cautivadores. ¡Realza tu encanto y simplifica tu rutina de belleza!',
+      name: "Body Reduction",
+      explanation: 'Utilizamos las últimas tecnologías y equipos en el mercado, así como técnicas manuales como masajes y drenaje linfático para ayudar a nuestros pacientes a lograr sus objetivos de pérdida de peso y moldeado corporal.',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
       price: 900
     },
@@ -94,14 +94,14 @@ export const tratamientos = [
       id: 4,
       name: "Implante Capilar",
       explanation: 'Recupera la confianza y el abundante cabello con nuestro revolucionario Implante Capilar. Disfruta de una melena natural, densa y radiante. ¡Vuelve a lucir orgulloso tu cabellera!',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684154113/micro_h3elyc.png",
       price: 300
     },
     {
       id: 5,
       name: "Hifu",
       explanation: '¡Eleva tu belleza a nuevas alturas! Experimenta un lifting facial sin cirugía, tensando y rejuveneciendo tu piel de forma increíble. Deslumbra con una apariencia fresca y radiante!',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/hifu_yjyjsf.png",
       price: 1000
     }
   ];
@@ -109,23 +109,23 @@ export const tratamientos = [
   export const cursos = [
     {
       id: 0,
-      name: "Máster en Peeling",
-      explanation: 'Conviértete en un experto en belleza y domina el arte del Peeling. Aprende las técnicas más avanzadas para transformar la piel, ofreciendo resultados sorprendentes, volviéndote el héroe de la apariencia radiante.',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
+      name: "Diplomatura en Quimica Cosmetica",
+      explanation: 'Aprenderás a formular y producir tus propios productos personalizados con la ayuda de nuestros expertos. Ideal para aquellos que buscan expandir sus conocimientos en estética o iniciar su propia línea de productos cosméticos.',
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/quimica_uaupt4.png",
       price: 250
     },
     {
       id: 1,
-      name: "Micropigmentación de Labios",
-      explanation: 'Desata tu creatividad y aprende las técnicas más avanzadas. Descubre cómo realzar la belleza natural de los labios, creando apariencias sensuales, atrevidas y sorprendentes. ¡Brindarás a tus pacientes un look espectacular!',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
+      name: "Enzimas Biologicas",
+      explanation: 'Aprenderás cómo utilizar enzimas biológicas en tus tratamientos de belleza para tratar problemas de la piel, como manchas, arrugas y acné. Nuestros expertos altamente capacitados te guiarán a través de todo el proceso, desde la teoría hasta la práctica, y te enseñarán cómo integrar las enzimas biológicas en tus tratamientos existentes.',
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/enzimas_yzyjo0.png",
       price: 500
     },
     {
       id: 2,
       name: "Microimplante Capilar",
       explanation: 'Abre las puertas a un futuro prometedor en tu formación profesional. Aprenderás técnicas avanzadas para devolver la confianza a aquellos que desean recuperar su cabello de forma natural y duradera.',
-      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684154113/micro_h3elyc.png",
       price: 700
     },
     {

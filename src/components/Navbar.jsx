@@ -32,17 +32,17 @@ const Navbar = () => {
         {nav ? <div className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0'></div> : ''}
 
             {/* Side menu */}
-            <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-20 duration-300' : 'fixed top-0 left-[-120%] w-[300px] h-screen bg-white z-10 duration-300'}>
+            <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-gray-200 z-20 duration-300' : 'fixed top-0 left-[-120%] w-[300px] h-screen bg-white z-10 duration-300'}>
                 <AiOutlineClose size={30} className='absolute right-4 top-4 cursor-pointer text-purple-900 hover:scale-110 ease-in duration-300' onClick={() => setNav(!nav)}/>
             <Link to='/' onClick={() => setNav(false) }>
                 <img src='https://res.cloudinary.com/dnqmez68n/image/upload/v1684092544/logo_pro_CICEC--02_kjvcsn.png' alt="logo-cicec" className='h-32 w-auto mx-auto mt-4' />
                 {/* <h2 className='text-2xl font-bold text-purple-900 p-4'>Cicec</h2> */}
             </Link>
                 <nav>
-                    <ul className='flex flex-col p-4 text-gray-800'>
-                        <Link to='/conocenos' onClick={() => setNav(false) } className='text-xl py-4 flex'><FaHandHoldingMedical size={25} className='mr-4'/>Conocenos</Link>
-                        <Link to='/tratamientos' onClick={() => setNav(false) } className='text-xl py-4 flex'><FaSyringe size={25} className='mr-4'/> Tratamientos</Link>
-                        <Link to='/contactanos' onClick={() => setNav(false) } className='text-xl py-4 flex'><GrMail size={25} className='mr-4'/> Contactanos</Link>
+                    <ul className='flex flex-col px-4 py-8 gap-6 text-xl text-gray-800'>
+                        <Link to='/conocenos' onClick={() => setNav(false) } className='hover:text-purple-900 ease-in duration-200 flex'><FaHandHoldingMedical size={25} className='mr-4'/>Conocenos</Link>
+                        <Link to='/tratamientos' onClick={() => setNav(false) } className='hover:text-purple-900 ease-in duration-200 flex'><FaSyringe size={25} className='mr-4'/> Tratamientos</Link>
+                        <Link to='/contactanos' onClick={() => setNav(false) } className='hover:text-purple-900 ease-in duration-200 flex'><GrMail size={25} className='mr-4'/> Contactanos</Link>
                     </ul>
                 </nav>
             </div>
