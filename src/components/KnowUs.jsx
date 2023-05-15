@@ -49,12 +49,14 @@ const KnowUs = () => {
             <p className="font-thin uppercase text-xs pb-4">Un equipo apasionado</p>
             <h3 className="text-violet-900/70 font-bold text-2xl text-center">Converti tus Sueños en Realidad</h3>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 content-center place-items-center h-auto w-full gap-10 py-8 mx-auto max-w-screen-md">
+        <div className="grid grid-cols-1 sm:grid-cols-2 content-center place-items-center h-auto w-full gap-10 py-8 mx-auto max-w-screen-md">
             {personal.map((doc => (
-                <div key={doc.id} className="flex flex-col items-center justify-center border border-black px-4 py-2 max-w-[200px] h-auto max-h-96">
-                    <img src={doc.img} alt={doc.nombre} className="max-h-44 h-auto w-1/3 sm:w-1/2 lg:w-1/4"/>
-                    <p className="uppercase text-primary-900 text-center font-bold">Dra. {doc.nombre}</p>
-                    <p className="text-sm uppercase text-primary-900 text-center italic">{doc.especialidad}</p>
+                <div key={doc.id} className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:max-w-xl hover:bg-gray-200 ease-in duration-200">
+                    <img src={doc.img} alt={doc.nombre} className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"/>
+                    <div className="flex flex-col justify-between p-4 leading-normal">
+                      <p className="uppercase text-primary-900 text-center font-bold">Dra. {doc.nombre}</p>
+                      <p className="text-sm uppercase text-primary-900 text-center italic">{doc.especialidad}</p>
+                    </div>
                 </div>
             )))}
         </div>
