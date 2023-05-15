@@ -1,9 +1,10 @@
 import { cursos, tratamientos } from "../db"
 import { Parallax } from 'react-parallax'
 const Tratamientos = () => {
-  
+  const msg = `https://api.whatsapp.com/send?phone=+5491124725859&text=Hola,%20estoy%20interesado%20en%20el%20tratamiento%20de:`
+  const msgcurso = `https://api.whatsapp.com/send?phone=+5491124725859&text=Hola,%20estoy%20interesado%20en%20el%20curso%20de:`
   return (
-    <div className="min-h-screen">
+    <div className="">
       <Parallax bgImage="https://i0.wp.com/tiendadelapiel.com.py/tienda/wp-content/uploads/2021/12/Mascarilla-activos-basicos-del-skincare-tienda-de-la-piel-paraguay.jpg?resize=1280%2C780&ssl=1" bgImageAlt="the cat" strength={400} className="">
       <div className="w-full min-h-[20vh] md:min-h-[40vh] flex flex-col justify-center items-center ">
         <h2 className="h-full w-full text-center uppercase font-mono font-bold text-xl md:text-5xl text-white">Tratamientos</h2>
@@ -18,7 +19,7 @@ const Tratamientos = () => {
               <img className="md:w-full rounded-t-md" src={tratamiento.img} alt={tratamiento.name} />
               <p className="mx-4 uppercase font-semibold">{tratamiento.name}</p>
               <p className="text-sm mx-4 font-thin italic">{tratamiento.explanation}</p>
-              <button className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-white">Mas Informacion</button>
+              <a href={msg} target="_blank" rel="noreferrer" className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-white">Mas Informacion</a>
             </div>
           ))}
         </div>
@@ -33,7 +34,7 @@ const Tratamientos = () => {
               <img className="md:w-full rounded-t-md" src={curso.img} alt={curso.name} />
               <p className="mx-4 uppercase font-semibold">{curso.name}</p>
               <p className="text-sm mx-4 font-thin italic">{curso.explanation}</p>
-              <button className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-white">Mas Informacion</button>
+              <a href={msgcurso} target="_blank" rel="noreferrer" className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-white">Mas Informacion</a>
             </div>
           ))}
         </div>

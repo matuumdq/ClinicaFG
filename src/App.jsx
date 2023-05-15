@@ -3,6 +3,7 @@ import Home from "./components/Home"
 import MainLayout from "./components/MainLayout"
 import KnowUs from "./components/KnowUs"
 import Tratamientos from "./components/Tratamientos"
+import ContactPage from "./components/ContactPage"
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
             <Route index element={<Home />}/>
             <Route path="/conocenos" element={<KnowUs/>}/>
             <Route path="/tratamientos" element={<Tratamientos/>}/>
+            <Route path="/contactanos" element={<ContactPage /> } />
           </Route>
         </Routes>
     </BrowserRouter>
