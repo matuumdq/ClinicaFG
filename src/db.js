@@ -141,13 +141,23 @@ export const tratamientos = [
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
       price: 900
     },
-    // {
-    //   id: 4,
-    //   name: "Máster en Glúteos",
-    //   explanation: '¡Eleva tus habilidades en la estética corporal a un nuevo nivel! Aprende las técnicas más avanzadas para tonificar, levantar y esculpir los glúteos, brindando a tus pacientes una figura perfecta para que se sientan más seguros y atractivos.',
-    //   img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
-    //   price: 300
-    // },
+    {
+      id: 4,
+      name: "Máster en Glúteos",
+      explanation: '¡Eleva tus habilidades en la estética corporal a un nuevo nivel! Aprende las técnicas más avanzadas para tonificar, levantar y esculpir los glúteos, brindando a tus pacientes una figura perfecta para que se sientan más seguros y atractivos.',
+      img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+      price: 300,
+      modules: [{
+        id: '1',
+        name: 'introduccion',
+        modules: 'Presentación y generalidades. Region glútea. Topografía glútea. Recepción del paciente. Historía clínica adaptada. Mesa de trabajo. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriostatico. Diferencia entre asépticos. Bioseguridad '
+      },
+      {
+        id:'2',
+        name: 'Guteos Piel',
+        modules: 'Presentación y generalidades. Region glútea. Topografía glútea. Recepción del paciente. Historía clínica adaptada. Mesa de trabajo. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriostatico. Diferencia entre asépticos. Bioseguridad '
+      }]
+    },
     // {
     //   id: 5,
     //   name: "Máster en Hilos Cosmetológicos",
