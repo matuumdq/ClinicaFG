@@ -146,6 +146,7 @@ export const tratamientos = [
       name: "Máster en Glúteos",
       explanation: '¡Eleva tus habilidades en la estética corporal a un nuevo nivel! Aprende las técnicas más avanzadas para tonificar, levantar y esculpir los glúteos, brindando a tus pacientes una figura perfecta para que se sientan más seguros y atractivos.',
       img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+      paralaximg: 'https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg',
       price: 300,
       modules: [{
         id: '1',

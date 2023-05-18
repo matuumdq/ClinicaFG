@@ -10,7 +10,7 @@ const SingleCourse = () => {
   return (
     <div className="min-h-screen">
         <Parallax
-        bgImage="https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg"
+        bgImage={curso.paralaximg}
         bgImageAlt={curso.name}
         strength={200}
         className=""
