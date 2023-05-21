@@ -4,8 +4,10 @@ import { Parallax } from "react-parallax";
 
 const SingleCourse = () => {
 	const { name } = useParams();
-
-	const curso = cursos.find((curso) => curso.name === name);
+	const formattedName = name.replace(/-/g, " ").toUpperCase();
+	const curso = cursos.find(
+		(curso) => curso.name.toUpperCase() === formattedName
+	);
 
 	return (
 		<div className="">
