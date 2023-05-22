@@ -223,9 +223,9 @@ export const cursos = [
 			},
 		],
 		objetives:
-			"Introducir a las/os participantes en el conocimiento y asistencia de los distintos tratamientos de Peeling. Conocer la mesa de trabajo y los materiales necesarios para realizar el tratamiento. Analizar distintos casos en donde se deba realizar peeling y conocer su justificación médica. Generación de protocolos combinados con peeling. Conocer el manejo de complicaciones. Consentimiento informado.",
+			"Introducir a las/os participantes en el conocimiento y asistencia de los distintos tratamientos de Peeling. Conocer la mesa de trabajo y los materiales necesarios para realizar el tratamiento. Analizar distintos casos en donde se deba realizar peeling y conocer su justificación médica. Generación de protocolos combinados con peeling. Conocer el manejo de complicaciones. Consentimiento informado",
 		includes:
-			"Manual científico de estudio digital. Coffee break. Kit de bioseguridad para la práctica (camisolin, cofia, guantes). Kit de estudio (carpera, hojas, lapicera). Diploma/certificado digital. Apoyo docente por tiempo indefinido. Grabación de todas las clases.",
+			"Manual científico de estudio digital. Coffee break. Kit de bioseguridad para la práctica (camisolin, cofia, guantes). Kit de estudio (carpera, hojas, lapicera). Diploma/certificado digital. Apoyo docente por tiempo indefinido. Grabación de todas las clases",
 		modality: [
 			{
 				name: "teoria",
@@ -235,7 +235,7 @@ export const cursos = [
 			{
 				name: "practica",
 				description:
-					"sábado 13 de Mayo, de 15hs a 19hs. Modalidad presencial u online.",
+					"Sábado 13 de Mayo, de 15hs a 19hs. Modalidad presencial u online.",
 			},
 		],
 	},
