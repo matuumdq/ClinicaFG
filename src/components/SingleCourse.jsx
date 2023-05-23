@@ -23,7 +23,10 @@ const SingleCourse = () => {
 				</div>
 				<div className="parallax-image absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
 			</Parallax>
-			<div className="h-auto w-full mt-10">
+			<div className="h-24 bg-amber-500/50 flex justify-center items-center font-bold uppercase tracking-widest font-mono text-4xl">
+				Contenido del Curso
+			</div>
+			<div className="h-auto w-full">
 				{/* Temario */}
 				<div>
 					{curso.modules && (
