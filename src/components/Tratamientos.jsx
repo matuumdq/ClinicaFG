@@ -1,9 +1,7 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { cursos, tratamientos } from "../db";
 import { Parallax } from "react-parallax";
 const Tratamientos = () => {
-	const params = useParams();
-	console.log(params);
 	function renderTratamiento(tratamiento) {
 		const msg = `https://api.whatsapp.com/send?phone=+5491124725859&text=Hola,%20estoy%20interesado%20en%20el%20tratamiento%20de:%20${tratamiento.name}`;
 
@@ -26,20 +24,24 @@ const Tratamientos = () => {
 				<p className="mx-4 font-thin italic line-clamp-3">
 					{tratamiento.explanation}
 				</p>
-				<a
-					href={msg}
-					target="_blank"
-					rel="noreferrer"
-					className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700"
-				>
-					Mas Información
-				</a>
-				<Link
-					to={`/tratamientos/${tratamiento.name}`}
-					className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700"
-				>
-					Que ofrecemos?
-				</Link>
+				<div className="flex mx-2">
+					<a
+						href={msg}
+						target="_blank"
+						rel="noreferrer"
+						className="font-light border border-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700/80"
+					>
+						Mas Información
+					</a>
+					<Link
+						to={`/tratamientos/${tratamiento.name
+							.replace(/\s+/g, "-")
+							.toLowerCase()}`}
+						className=" bg-amber-400/50 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700 "
+					>
+						Que ofrecemos?
+					</Link>
+				</div>
 			</div>
 		);
 	}
@@ -70,22 +72,24 @@ const Tratamientos = () => {
 				<p className="mx-4 font-thin italic line-clamp-3">
 					{curso.explanation}
 				</p>
-				<a
-					href={msg}
-					target="_blank"
-					rel="noreferrer"
-					className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700"
-				>
-					Mas Información
-				</a>
-				<Link
-					to={`/cursos/${curso.name
-						.replace(/\s+/g, "-")
-						.toLowerCase()}`}
-					className="font-light bg-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700"
-				>
-					Que ofrecemos?
-				</Link>
+				<div className="flex mx-2">
+					<a
+						href={msg}
+						target="_blank"
+						rel="noreferrer"
+						className="font-light border border-amber-400/60 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700/80"
+					>
+						Mas Información
+					</a>
+					<Link
+						to={`/cursos/${curso.name
+							.replace(/\s+/g, "-")
+							.toLowerCase()}`}
+						className="bg-amber-400/50 mx-auto px-2 py-1 rounded-md hover:scale-105 ease-in duration-300 text-purple-700 "
+					>
+						Que ofrecemos?
+					</Link>
+				</div>
 			</div>
 		);
 	}

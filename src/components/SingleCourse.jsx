@@ -43,7 +43,7 @@ const SingleCourse = () => {
 									</h2>
 								</div>
 							</Parallax>
-							<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-screen-xl gap-8 md:gap-5 mx-auto my-5 md:my-14">
+							<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-screen-xl gap-8 md:gap-5 mx-5 md:mx-auto my-5 md:my-14">
 								{curso.modules.map((modu) => (
 									<div
 										className=" border border-black rounded-md p-4 relative"
