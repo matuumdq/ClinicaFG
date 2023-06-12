@@ -27,10 +27,10 @@ const Navbar = () => {
 					Conocenos
 				</Link>
 				<Link
-					to="/tratamientos"
+					to="/cursos"
 					className="border-b-2 border-transparent hover:border-purple-600 hover:text-purple-600 ease-in duration-300"
 				>
-					Tratamientos
+					Cursos
 				</Link>
 				<Link
 					to="/contactanos"
@@ -89,12 +89,11 @@ const Navbar = () => {
 							Conocenos
 						</Link>
 						<Link
-							to="/tratamientos"
+							to="/cursos"
 							onClick={() => setNav(false)}
 							className="hover:text-purple-900 ease-in duration-200 flex"
 						>
-							<FaSyringe size={25} className="mr-4" />{" "}
-							Tratamientos
+							<FaSyringe size={25} className="mr-4" /> Cursos
 						</Link>
 						<Link
 							to="/contactanos"
