@@ -13,6 +13,8 @@
 // };
 // export default VideoPlayer;
 const VideoPlayer = () => {
+	const videoUrl =
+		"https://res.cloudinary.com/dnqmez68n/video/upload/v1686581731/videomuestra_b5us9h.mp4";
 	return (
 		<div>
 			<video
@@ -21,7 +23,7 @@ const VideoPlayer = () => {
 				muted
 				loop
 			>
-				<source src="../../public/videomuestra.mp4" type="video/mp4" />
+				<source src={videoUrl} type="video/mp4" />
 				Tu navegador no admite la reproducción de videos.
 			</video>
 		</div>
