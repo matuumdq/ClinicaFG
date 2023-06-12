@@ -11,13 +11,17 @@
 // 		</div>
 // 	);
 // };
-
 // export default VideoPlayer;
 const VideoPlayer = () => {
 	return (
 		<div>
-			<video className="w-full h-[90vh] absolute" autoPlay muted loop>
-				<source src="../assets/videomuestra.mp4" type="video/mp4" />
+			<video
+				className="w-full h-[91vh] object-cover absolute"
+				autoPlay
+				muted
+				loop
+			>
+				<source src="../../public/videomuestra.mp4" type="video/mp4" />
 				Tu navegador no admite la reproducción de videos.
 			</video>
 		</div>
