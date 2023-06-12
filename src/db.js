@@ -126,6 +126,7 @@ export const cursos = [
 			"Aprenderás a formular y producir tus propios productos personalizados con la ayuda de nuestros expertos. Ideal para aquellos que buscan expandir sus conocimientos en estética o iniciar su propia línea de productos cosméticos.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/quimica_uaupt4.png",
 		price: 250,
+		sinc: "asinc",
 	},
 	{
 		id: 101,
@@ -134,6 +135,7 @@ export const cursos = [
 			"Aprenderás cómo utilizar enzimas biológicas en tus tratamientos de belleza para tratar problemas de la piel, como manchas, arrugas y acné. Nuestros expertos altamente capacitados te guiarán a través de todo el proceso, desde la teoría hasta la práctica, y te enseñarán cómo integrar las enzimas biológicas en tus tratamientos existentes.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/enzimas_yzyjo0.png",
 		price: 500,
+		sinc: "sinc",
 	},
 	{
 		id: 102,
@@ -142,6 +144,7 @@ export const cursos = [
 			"Abre las puertas a un futuro prometedor en tu formación profesional. Aprenderás técnicas avanzadas para devolver la confianza a aquellos que desean recuperar su cabello de forma natural y duradera.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684154113/micro_h3elyc.png",
 		price: 700,
+		sinc: "asinc",
 	},
 	{
 		id: 103,
