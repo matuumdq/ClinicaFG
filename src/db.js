@@ -144,7 +144,7 @@ export const cursos = [
 			"Abre las puertas a un futuro prometedor en tu formación profesional. Aprenderás técnicas avanzadas para devolver la confianza a aquellos que desean recuperar su cabello de forma natural y duradera.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684154113/micro_h3elyc.png",
 		price: 700,
-		sinc: "asinc",
+		sinc: "sinc",
 	},
 	{
 		id: 103,
@@ -153,6 +153,7 @@ export const cursos = [
 			"Aprenderás sobre sus propiedades bioquímicas y cómo se aplican en tratamientos faciales y corporales para estimular la regeneración celular y mejorar la elasticidad de la piel.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
 		price: 900,
+		sinc: "asinc",
 	},
 	{
 		id: 104,
@@ -163,6 +164,7 @@ export const cursos = [
 		paralaximg:
 			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
 		price: 300,
+		sinc: "asinc",
 		modules: [
 			{
 				id: "1",
@@ -187,6 +189,7 @@ export const cursos = [
 		paralaximg:
 			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
 		price: 300,
+		sinc: "sinc",
 		modules: [
 			{
 				id: "1",
