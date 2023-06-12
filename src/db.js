@@ -1,20 +1,20 @@
 export const doctors = [
 	{
-		id: 1,
+		id: 301,
 		nombre: "Franco Gomez",
 		caracteristicas: "Medicina Estetica",
 		frase: "Mi objetivo es brindar resultados excepcionales mientras me aseguro de que mis pacientes se sientan cómodos y confiados durante todo el proceso",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/franco_cbmhve.png",
 	},
 	{
-		id: 2,
+		id: 302,
 		nombre: "Alberto",
 		caracteristicas: "Peeling",
 		frase: "Mi maestría en el peeling facial me permite personalizar cada tratamiento para lograr una piel saludable, renovada y radiante según las necesidades y objetivos de cada paciente",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684167391/doc_myich9.jpg",
 	},
 	{
-		id: 3,
+		id: 303,
 		nombre: "Evelin",
 		caracteristicas: "Capilar",
 		frase: "Brindo soluciones efectivas y personalizadas para cada paciente, asegurando resultados duraderos y satisfactorios en problemas capilares",
@@ -24,43 +24,43 @@ export const doctors = [
 
 export const personal = [
 	{
-		id: 0,
+		id: 200,
 		nombre: "Franco Gomez",
 		especialidad: "Medicina Estetica",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/franco_cbmhve.png",
 	},
 	{
-		id: 1,
+		id: 201,
 		nombre: "Morena",
 		especialidad: "Dermatologo",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct5_cv63cb.jpg",
 	},
 	{
-		id: 2,
+		id: 202,
 		nombre: "Evelin",
 		especialidad: "Hifu",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct3_geudgd.jpg",
 	},
 	{
-		id: 3,
+		id: 203,
 		nombre: "Amelia",
 		especialidad: "Endopeel",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct2_ypkqmw.jpg",
 	},
 	{
-		id: 4,
+		id: 204,
 		nombre: "Juana",
 		especialidad: "Hilos",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093116/doct_jgxyim.jpg",
 	},
 	{
-		id: 5,
+		id: 205,
 		nombre: "Lucia",
 		especialidad: "Peeling",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684093270/doct4_me0nxx.jpg",
 	},
 	// {
-	//   id: 6,
+	//   id: 206,
 	//   nombre: "Matias",
 	//   especialidad: "Implante Capilar",
 	//   img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683215737/doc_o625ww.png",
@@ -120,39 +120,43 @@ export const tratamientos = [
 
 export const cursos = [
 	{
-		id: 0,
+		id: 100,
 		name: "Quimica Cosmetica",
 		explanation:
 			"Aprenderás a formular y producir tus propios productos personalizados con la ayuda de nuestros expertos. Ideal para aquellos que buscan expandir sus conocimientos en estética o iniciar su propia línea de productos cosméticos.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/quimica_uaupt4.png",
 		price: 250,
+		sinc: "asinc",
 	},
 	{
-		id: 1,
+		id: 101,
 		name: "Enzimas Biologicas",
 		explanation:
 			"Aprenderás cómo utilizar enzimas biológicas en tus tratamientos de belleza para tratar problemas de la piel, como manchas, arrugas y acné. Nuestros expertos altamente capacitados te guiarán a través de todo el proceso, desde la teoría hasta la práctica, y te enseñarán cómo integrar las enzimas biológicas en tus tratamientos existentes.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/enzimas_yzyjo0.png",
 		price: 500,
+		sinc: "sinc",
 	},
 	{
-		id: 2,
+		id: 102,
 		name: "Microimplante Capilar",
 		explanation:
 			"Abre las puertas a un futuro prometedor en tu formación profesional. Aprenderás técnicas avanzadas para devolver la confianza a aquellos que desean recuperar su cabello de forma natural y duradera.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684154113/micro_h3elyc.png",
 		price: 700,
+		sinc: "sinc",
 	},
 	{
-		id: 3,
+		id: 103,
 		name: "Master en Peptonas",
 		explanation:
 			"Aprenderás sobre sus propiedades bioquímicas y cómo se aplican en tratamientos faciales y corporales para estimular la regeneración celular y mejorar la elasticidad de la piel.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
 		price: 900,
+		sinc: "asinc",
 	},
 	{
-		id: 4,
+		id: 104,
 		name: "Máster en Glúteos",
 		explanation:
 			"¡Eleva tus habilidades en la estética corporal a un nuevo nivel! Aprende las técnicas más avanzadas para tonificar, levantar y esculpir los glúteos, brindando a tus pacientes una figura perfecta para que se sientan más seguros y atractivos.",
@@ -160,6 +164,7 @@ export const cursos = [
 		paralaximg:
 			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
 		price: 300,
+		sinc: "asinc",
 		modules: [
 			{
 				id: "1",
@@ -176,7 +181,7 @@ export const cursos = [
 		],
 	},
 	{
-		id: 4,
+		id: 105,
 		name: "Máster en Peeling",
 		explanation:
 			"¡Eleva tus habilidades en rejuvenecimiento facial! Aprende las técnicas avanzadas de peeling químico para lograr una piel radiante y rejuvenecida.",
@@ -184,6 +189,7 @@ export const cursos = [
 		paralaximg:
 			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
 		price: 300,
+		sinc: "sinc",
 		modules: [
 			{
 				id: "1",
@@ -240,7 +246,7 @@ export const cursos = [
 		],
 	},
 	// {
-	//   id: 5,
+	//   id: 106,
 	//   name: "Máster en Hilos Cosmetológicos",
 	//   explanation: 'Transforma rostros, cambiando para bien las vidas de tus pacientes. Aprenderás a aplicar técnicas vanguardistas para reducir la flacidez facial y obtener resultados duraderos y espectaculares.',
 	//   img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
