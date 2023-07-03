@@ -2,8 +2,11 @@ import { doctors } from "../db";
 
 const Doctors = () => {
 	return (
-		<div className="w-full bg-gradient-to-b from-white via-yellow-500/20 to-white h-auto px-12">
-			<h2 className="font-bold text-2xl text-center py-8 uppercase font-mono">
+		<div
+			id="start"
+			className="w-full bg-gradient-to-b from-white via-yellow-500/20 to-white h-auto px-12"
+		>
+			<h2 className="font-bold text-2xl text-center mt-12 py-8 uppercase font-mono">
 				Nuestros Profesionales
 			</h2>
 			<ul className="flex flex-col sm:flex-row sm:justify-around items-center py-8 w-full gap-8">
