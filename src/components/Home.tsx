@@ -9,6 +9,7 @@ import Workshop from './Workshop'
 import Carousel from './Carousel'
 import Form from './Form'
 import VideoPlayer from './VideoPlayer'
+import Contact from './Contact'
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
         <Supplies />
         <Workshop />
         <Carousel />
-        <Form />
+        <Contact />
     </div>
   )
 }
