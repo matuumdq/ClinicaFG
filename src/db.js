@@ -376,4 +376,294 @@ export const cursos = [
 			},
 		],
 	},
+	{
+		id: 106,
+		name: "MICROIMPLANTE CAPILAR",
+		explanation: "Dirigido a médicos",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684154113/micro_h3elyc.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "PELO NORMAL Y ALOPECIAS",
+				modules:
+					"Tricologia. Generalidades de microinjerto capilar. Anatomía, fisiología y biología molecular de cabello y cuero cabelludo. Semiología. Exámenes complementarios. Alopecias",
+			},
+			{
+				id: "2",
+				name: "TRATAMIENTOS MÉDICOS",
+				modules:
+					"Inyectables, tópicos y orales. Mesoterapia. Carboxiterapia. Ozonoterapia",
+			},
+			{
+				id: "3",
+				name: "TRATAMIENTO QUIRÚRGICO",
+				modules:
+					"Tratamiento quirúrgico e indicaciones pre operatorias. Técnica FUE (follicular unit extracción). Diferencias entre las técnicas FUSS y FUE. Estudios pre quirúrgicos. Rasurado. Pre medicación. Anestesia. Diseño. UFs: - Definición. - Tca Extracción. - Tca Cosecha. - Conservación. Densidad distribución y orientación. Implantación, Incisiones, Colocación Y Nivelación. Indicaciones post quirúrgicas. Instrumental. Complicaciones intraoperatorias. Complicaciones post operatorias",
+			},
+		],
+		objetives:
+			"Incluir a las/os participantes en el conocimiento y tratamiento de Implante capilar. Analizar casos en donde se deba realizar el implante capilar y conocer su justificación médica. Conocer el manejo de complicaciones",
+		includes:
+			"Grabación de las clases. Acceso ilimitado a las grabaciones. Diploma digital. Manual científico de estudio digital",
+		modality: [
+			{
+				name: "Teoría",
+				description: "3 clases grabadas de 2hs cada una",
+			},
+			{
+				name: "Práctica",
+				description: "Fecha presencial a coordinar. Jornada de 6hs.",
+			},
+		],
+	},
+	{
+		id: 107,
+		name: "MÁSTER PLASMA FIBROBLAST",
+		explanation: "Plasma pen y Plasma láser",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: "COMPLETAR",
+		priceext: "COMPLETAR",
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Presentación. Introducción. Generalidades. Topografía facial. Sistema tegumentario. Biotipo y fototipo cutáneo. Envejecimiento cutáneo. Lesiones Elementales",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"Concepto plasma fibroblastic. Biofísica del plasma fibroblastic (cuarto estado de la materia, ionización, Campos electromagnéticos). Historia plasma Fibroblastic. Mecanismo de acción del plasma. Diferencia con el electrobisturí. Indicaciones. Contraindicaciones. Indicaciones pre tratamiento. Mesa de Trabajo. Técnicas de manejo",
+			},
+			{
+				id: "3",
+				name: "MÓDULO 3",
+				modules:
+					"Abordaje Facial. Arrugas superficiales y profundas. Lifting físico. Blefaroplasma. Flaccidez Facial. Abordaje Corporal. Flaccidez Corporal. Estrías. Cuidados post tratamiento. Complicaciones y Resoluciones. Casos clínicos",
+			},
+		],
+		objetives: " COMPLETAR",
+		includes:
+			"Grabación de las clases. Diploma digital. Manual completo de estudio. Videos con la ejecución de la técnica paso a paso. Acceso a grupo de WhatsApp",
+		modality: [
+			{
+				name: "Teoría",
+				description: "4 clases grabadas de 2hs cada una",
+			},
+			{
+				name: "Práctica asincrónica",
+				description:
+					"Videos prácticos demostrativos de las técnicas paso a paso.",
+			},
+		],
+	},
+	{
+		id: 108,
+		name: "MÁSTER ENZIMAS BIOLÓGICAS",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/enzimas_yzyjo0.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Introducción y generalidades. Anatomía facial y corporal. Posición anatómica. Planimetría corporal. Planos anatómicos. Tejido epitelial. Tejido conectivo. Sistema tegumentario. Colágeno. Ácido hialurónico. Tejido adiposo. Envejecimiento cutáneo",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"Bioquímica enzimática. Enzimas. Definición. Función. Clasificación. Cofactores y coenzimas. Reacción química. Proteínas. Proteínas recombinantes. Papel fisiológico de las enzimas hialuronidasa, colagenasa, lipasa y queratinasa. Enzimas en estética. Metaloproteinasas. Vías de administración. Enzimas biológicas tópicas. Obtención de enzimas biológicas. Biotecnología. Proceso de liofilización",
+			},
+			{
+				id: "3",
+				name: "MÓDULO 3",
+				modules:
+					"Indicaciones. Contraindicaciones y efectos secundarios. Protocolos Faciales: Flacidez. Cicatrices. Queloides. Quemaduras. Bolsas palpebrales. Adiposidad localizada submentoneana. Bichectomia enzimática. Protocolos Corporales: Flacidez. Quemaduras. Celulitis. Adiposidad localizada. Estrías. Cicatrices. Queloides. Complicaciones y su resolución",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento de Enzimas biológicas. Analizar tratamientos en donde se deba realizar enzimas biológicas y conocer su justificación médica. Generación de protocolos combinados con Enzimas biológicas. Conocer el manejo de complicaciones",
+		includes:
+			"Grabación de las clases. 3 videos con la ejecución de la técnica paso a paso: preparación y aplicación de enzimas biológicas, enzimas biológicas en rostro, enzima biológicas en glúteos. Diploma digital. Manual completo de estudio. Acceso a grupo de WhatsApp",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 109,
+		name: "MÁSTER EN RADIOFRECUENCIA",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Anatomía facial y corporal. Posición anatómica. Planimetría. Planos anatómicos. Tejido epitelial. Tejido conjuntivo. Sistema Tegumentario. Lesiones elementales. Líneas de Langer",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"Radiofrecuencia. Definición. Biofísica. Radiofrecuencia capacitiva, inductiva y resistiva. Radiofrecuencia monopolar. Radiofrecuencia bipolar. Radiofrecuencia tripolar. Radiofrecuencia multipolar. Radiofrecuencia 3DEEP. Radiofrecuencia fraccionada. Radiofrecuencia con agujas. Crio radiofrecuencia. Mecanismo de acción. Indicaciones. Contraindicaciones. Mesa de trabajo",
+			},
+			{
+				id: "3",
+				name: "MÓDULO 3",
+				modules:
+					"RADIOFRECUENCIA FACIAL: Arrugas. Flacidez. Cicatrices. RADIOFRECUENCIA CORPORAL: Flacidez. Celulitis. Combinación con otros tratamientos. Complicaciones",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia de fundamentos en el manejo de radiofrecuencia. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos, y conocer su justificación médica. Generación de protocolos combinados. Conocer el manejo de complicaciones",
+		includes:
+			"Grabación de las clases. Diploma digital. Acceso a grupo de WhatsApp",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 110,
+		name: "MÁSTER EN PEPTONAS",
+		explanation:
+			"¿Eres profesional en el campo de la estética? ¿Te gustaría ofrecer un tratamiento innovador y efectivo a tus pacientes? ¡Entonces este curso es para ti! Con este curso, aprenderás todo lo que necesitas saber sobre las peptonas, una técnica que utiliza péptidos específicos para mejorar la apariencia y salud de la piel.",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Presentación. Caso clínico. Generalidades. Definición. Medicina regenerativa. Terapia biológica celular. Historia del uso de peptonas en medicina estética. Biología celular. Célula. Ciclo de Krebs. Metabolismo celular. Sistema tegumentario. Envejecimiento. Lesiones elementales",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"Aminoácidos y Proteínas. Obtención de peptonas. Mecanismo de acción de las peptonas. Principales preparados biológicos de peptonas en medicina estética. Indicaciones. Contraindicaciones. Formas de presentación de las peptonas. Elaboración de historia clínica. Recepción del paciente. Mesa de trabajo. Bioseguridad. Indicaciones pre",
+			},
+			{
+				id: "3",
+				name: "MÓDULO 3",
+				modules:
+					"Lectura de vademécum. Tratamiento capilar con peptonas. Tipos de alopecia. Mesoterapia convencional y con dispositivos. Tratamientos faciales con peptonas. Mesoterapia. Dermapen. Dermaroller. Skinbooster. Tratamientos corporales con peptonas. Glúteos up. Reafirmación de abdomen. Tratamiento domiciliario con peptonas. Tratamientos complementarios a peptonas para un óptimo resultado. Indicaciones post. Complicaciones y su resolución. Caso clínico. Conclusión",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia de fundamentos en el manejo de radiofrecuencia. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos, y conocer su justificación médica. Generación de protocolos combinados. Conocer el manejo de complicaciones",
+		includes:
+			"Grabación de 3 clases teóricas. Grabación de la clase práctica. Acceso ilimitado a las grabaciones. Manual científico de estudio digital. Diploma digital. Asistencia y asesoría post-curso a través de WhatsApp",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 111,
+		name: "MÁSTER EN MESOTERAPIA",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Presentación y generalidades. Anatomía y fisiología de la piel. Sistema tegumentario. Colágeno. Ácido hialurónico. Biotipos cutáneos y fototipos. Topografía superficial rostro. Unidades estéticas faciales. Envejecimiento cutáneo. Recepción del paciente. Historía clínica adaptada. Definición y clasificación de mesoterapia. Indicaciones. Indicaciones pre procedimiento. Mesa de trabajo. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriostatico. Diferencia entre asépticos. Bioseguridad. Preparación de la piel. Activos. Plasma rico en plaquetas",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"MESOTERAPIA CONVENCIONAL: Mecanismo de acción. Técnicas de administración. MESOTERAPIA CON PISTOLA: Pistolas. Variedades. Mecanismo de acción. Técnica de administración. MESOTERAPIA CON DERMAPEN: Dermapen. Variedades. Mecanismo de acción. Técnica de administración. MESOTERAPIA CON DERMAROLLER: Dermaroller. Variedades. Mecanismo de acción. Técnica de administración. MESOTERAPIA CON HYALURON PEN: Hyaluron pen. Variedades. Mecanismo de acción. Técnica de administración. MESOTERAPIA VIRTUAL: Electroporador. Variedades. Mecanismo de acción. Técnica de administración. MESOTERAPIA FACIAL: Antiage. Secuelas de acné. Melasma. Cloasma. MESOTERAPIA CORPORAL: Estrías. Cicatrices. Celulitis. Adiposidad localizada. MESOTERAPIA CAPILAR: Alopecia. Clasificación de alopecia con sus respectivos tratamientos",
+			},
+			{
+				id: "3",
+				name: "MÓDULO 3",
+				modules:
+					"Combinaciones con otros procedimientos. Indicaciones post procedimiento. Complicaciones y su resolución. Caso clínico. Conclusiones",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento de Mesoterapia. Conocer los materiales necesarios para realizar del tratamiento. Analizar tratamientos en donde se deba realizar la mesoterapia y conocer su justificación médica. Generación de protocolos combinados con mesoterapia. Conocer el manejo de complicaciones. Consentimiento informado.",
+		includes:
+			"Manual científico de estudio. 3 videos con la ejecución de la técnica paso a paso: mesoterapia facial, capilar y corporal. Certificado de participación. Acceso a grupo cerrado de WhatsApp. 3 clases grabadas con los siguientes temas.",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 112,
+		name: "MÁSTER EN DERMAPEN",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/dermaplaning_cvkwjl.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Presentación. Generalidades. Sistema Tegumentario. Biotipo y Fototipo Cutáneo. Envejecimiento Cutáneo. Proceso de cicatrización. Lesiones elementales. Dermapen. Usos. Marcas y modelos. Tipos de agujas. Dermaroller. Usos. Diferencias con Dermapen. Recepción del paciente. Elaboración de historia clínica. Consentimiento Informado. Principios activos utilizados. Mecanismo de acción. Indicaciones. Contraindicaciones. Indicaciones pre. Mesa de trabajo. Bioseguridad",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"DERMAPEN CAPILAR: Anatomía y fisiología del cabello. Alopecia. Protocolos. DERMAPEN FACIAL: Topografía facial. Planos anatómicos. Protocolos para Antiage, flacidez, secuelas de acné, plasma rico. Vampire face lift. Microneedling plasma. Peeling. DERMAPEN CORPORAL: Flacidez, estrías. Complicaciones y Resoluciones",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento de Dermapen. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos en donde se deba realizar el Dermapen y conocer su justificación médica. Generación de protocolos combinados con Dermapen. Conocer el manejo de complicaciones",
+		includes:
+			"Manual completo de estudio. Certificado de participación. 2 videos con la ejecución de la técnica paso a paso: dermapen facial, dermapen en estrías. Acceso a grupo cerrado de WhatsApp",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
 ];

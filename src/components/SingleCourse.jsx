@@ -248,34 +248,42 @@ const SingleCourse = () => {
 						{/* Aclaracion */}
 						<div className="max-w-screen-lg flex flex-col md:flex-row mx-auto my-5 md:my-10">
 							<div className="flex flex-col gap-4 w-full md:mx-auto mx-auto px-5 md:text-xl my-5 md:my-10">
-								<p className="text-2xl text-center font-semibold">
-									VALORES Y FORMAS DE PAGO:
-								</p>
-								<p>
-									Alumnos Argentina:{" "}
-									<span className="font-bold">
-										${curso.price}
-									</span>{" "}
-								</p>
-								<p>
-									Pueden abonar mediante transferencia
-									bancaria o a través de Mercado pago.{" "}
-									<span className="italic text-lg">
-										Solicitar datos.
-									</span>
-								</p>
-								<p>
-									Alumnos extranjeros:{" "}
-									<span className="font-bold">
-										{curso.priceext} USD
-									</span>{" "}
-								</p>
-								<p>
-									Pueden abonar a través de Paypal.{" "}
-									<span className="italic text-lg">
-										Solicitar datos.
-									</span>
-								</p>
+								{curso.price && (
+									<>
+										<p className="text-2xl text-center font-semibold">
+											VALORES Y FORMAS DE PAGO:
+										</p>
+										<p>
+											Alumnos Argentina:{" "}
+											<span className="font-bold">
+												${curso.price}
+											</span>{" "}
+										</p>
+										<p>
+											Pueden abonar mediante transferencia
+											bancaria o a través de Mercado pago.{" "}
+											<span className="italic text-lg">
+												Solicitar datos.
+											</span>
+										</p>
+									</>
+								)}
+								{curso.priceext && (
+									<>
+										<p>
+											Alumnos extranjeros:{" "}
+											<span className="font-bold">
+												{curso.priceext} USD
+											</span>{" "}
+										</p>
+										<p>
+											Pueden abonar a través de Paypal.{" "}
+											<span className="italic text-lg">
+												Solicitar datos.
+											</span>
+										</p>
+									</>
+								)}
 
 								<p className="italic">
 									También pueden abonar en efectivo en
