@@ -195,19 +195,19 @@ export const cursos = [
 				id: "1",
 				name: "introduccion",
 				modules:
-					"Presentación y generalidades. Anatomía y fisiología de la piel. Sistema tegumentario. Manto hidrolipídico. Biotipos cutáneos y fototipos. Envejecimiento cutáneo. Lesiones elementales.",
+					"Presentación y generalidades. Anatomía y fisiología de la piel. Sistema tegumentario. Manto hidrolipídico. Biotipos cutáneos y fototipos. Envejecimiento cutáneo. Lesiones elementales",
 			},
 			{
 				id: "2",
 				name: "2",
 				modules:
-					"Proceso de cicatrización. Recepción del paciente. Semiología. Historía clínica adaptada. Definición y clasificación de peeling. Indicaciones. Indicaciones pre peeling. Principios de bioseguridad. Preparación de la piel.",
+					"Proceso de cicatrización. Recepción del paciente. Semiología. Historía clínica adaptada. Definición y clasificación de peeling. Indicaciones. Indicaciones pre peeling. Principios de bioseguridad. Preparación de la piel",
 			},
 			{
 				id: "3",
 				name: "3",
 				modules:
-					"PEELING NATURAL: Impacto del sol sobre la piel y su descamación. PEELING BIOLÓGICO: Peeling enzimatico. Ácido retinoico. PEELING MECÁNICO: Scrub. Microdermoabrasión. Punta de diamantes. Espátula ultrasónica. Dermaplaning. PEELING FÍSICO: Criopeel. Laser co2 fraccionado. Resurfacing.",
+					"PEELING NATURAL: Impacto del sol sobre la piel y su descamación. PEELING BIOLÓGICO: Peeling enzimatico. Ácido retinoico. PEELING MECÁNICO: Scrub. Microdermoabrasión. Punta de diamantes. Espátula ultrasónica. Dermaplaning. PEELING FÍSICO: Criopeel. Laser co2 fraccionado. Resurfacing",
 			},
 			{
 				id: "4",
@@ -219,13 +219,13 @@ export const cursos = [
 				id: "5",
 				name: "PATOLOGÍAS DERMATOLÓGICAS Y PROTOCOLOS CON PEELING.",
 				modules:
-					"Proceso de melanogénesis. Luz de Wood. Hiperpigmentaciones. Melasma y cloasma. Acné. Secuelas de Acné. Pieles sensibles y rosácea. Envejecimiento y fotoenvejecimiento. Estrías. Cicatrices. Combinaciones con otros tratamientos. Indicaciones post peeling. Apoyo domiciliario. Complicaciones y su resolución. Caso clínico. Conclusiones.",
+					"Proceso de melanogénesis. Luz de Wood. Hiperpigmentaciones. Melasma y cloasma. Acné. Secuelas de Acné. Pieles sensibles y rosácea. Envejecimiento y fotoenvejecimiento. Estrías. Cicatrices. Combinaciones con otros tratamientos. Indicaciones post peeling. Apoyo domiciliario. Complicaciones y su resolución. Caso clínico. Conclusiones",
 			},
 			{
 				id: "6",
 				name: "Practica",
 				modules:
-					"Peeling láser co2 facial. Peeling TCA facial. Peeling enzimático, mecánico y químico facial. Peeling mecánico y químico corporal.",
+					"Peeling láser co2 facial. Peeling TCA facial. Peeling enzimático, mecánico y químico facial. Peeling mecánico y químico corporal",
 			},
 		],
 		objetives:
@@ -245,11 +245,58 @@ export const cursos = [
 			},
 		],
 	},
-	// {
-	//   id: 106,
-	//   name: "Máster en Hilos Cosmetológicos",
-	//   explanation: 'Transforma rostros, cambiando para bien las vidas de tus pacientes. Aprenderás a aplicar técnicas vanguardistas para reducir la flacidez facial y obtener resultados duraderos y espectaculares.',
-	//   img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
-	//   price: 1000
-	// }
+	{
+		id: 106,
+		name: "MÁSTER EN HILOS COSMETOLÓGICOS",
+		explanation:
+			"¡Sumérgete en el fascinante mundo de los hilos cosméticos! Amplía tus conocimientos y habilidades en este innovador campo para ofrecer resultados sorprendentes en rejuvenecimiento facial y corporal.",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "sinc",
+		modules: [
+			{
+				id: "1",
+				name: "1",
+				modules:
+					"Presentación y generalidades. Anatomía de superficie facial. Sistema Tegumentario. Envejecimiento cutáneo. Escala Glogau. Análisis facial. Planimetría facial. Estética regenerativa. Bioestimulación. Lesiones elementales cutáneas.",
+			},
+			{
+				id: "2",
+				name: "2",
+				modules:
+					"Análisis cutáneo. Fototipos cutáneos. Biotipos cutáneos. Generación de historia clínica. Hilos tópicos. Definición y Clasificación. Farmacología aplicada, conocimiento de los principales activos. Péptidos en estética. Mecanismo de acción. Marcas de hilos tópicos. Mesa de trabajo. Dermapen. Electroporación. Fotobiomodulación.",
+			},
+			{
+				id: "3",
+				name: "3",
+				modules:
+					"Protocolo facial. Marcación facial. Nano botox. Hilos nube. Protocolo corporal. Marcación corporal, será más orientado a la ptosis glútea. Técnica. Dispositivos utilizados para la técnica. Procedimientos no invasivos realizados con la técnica. Procedimiento mínimamente invasivo realizado con la técnica. Complemento con otras aparatologías para el uso facial y corporal, antes y después de la técnica, para el mejor resultado. Contraindicaciones. Complicaciones y su resolución",
+			},
+			{
+				id: "4",
+				name: "Practica",
+				modules:
+					"Hilos liquidos y solidos faciales con dermapen y fotobiomodulacion. Hilos liquidos y solidos faciales con dermapen y electroporador. Hilos liquidos corporales con microdermoabrasion y electroporador.",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia de los distintos tratamientos con hilos cosmetologicos. Conocer la mesa de trabajo y los materiales necesarios para realizar el tratamiento. Analizar distintos casos en donde se deba realizar hilos cosmetologicos y conocer su justificacion medica. Generacion de protocolos combinados con hilos cosmetologicos. Conocer el manejo de complicaciones. Consentimiento informado",
+		includes:
+			"Grabación de las 3 clases teóricas y de la clase práctica. Acceso ilimitado a las grabaciones. Coffee break. Kit de bioseguridad para la práctica (camisolin, cofia, guantes). Kit de estudio (carpera, hojas, lapicera). Manual científico de estudio digital. Diploma digital. Asistencia y asesoría post-curso a través de WhatsApp",
+		modality: [
+			{
+				name: "teoria",
+				description:
+					"14, 15 y 16 de Junio, de 13 a 15hs. Modalidad online por Zoom.",
+			},
+			{
+				name: "practica",
+				description:
+					" 17 de Junio de 14hs a 18hs. Modalidad presencial u online.",
+			},
+		],
+	},
 ];

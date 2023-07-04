@@ -235,6 +235,18 @@ const SingleCourse = () => {
 										Solicitar datos.
 									</span>
 								</p>
+								<p>
+									Alumnos extranjeros:{" "}
+									<span className="font-bold">
+										{curso.priceext} USD
+									</span>{" "}
+								</p>
+								<p>
+									Pueden abonar a través de Paypal.{" "}
+									<span className="italic text-lg">
+										Solicitar datos.
+									</span>
+								</p>
 
 								<p className="italic">
 									También pueden abonar en efectivo en
