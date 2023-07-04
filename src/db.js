@@ -121,67 +121,6 @@ export const tratamientos = [
 export const cursos = [
 	{
 		id: 100,
-		name: "Quimica Cosmetica",
-		explanation:
-			"Aprenderás a formular y producir tus propios productos personalizados con la ayuda de nuestros expertos. Ideal para aquellos que buscan expandir sus conocimientos en estética o iniciar su propia línea de productos cosméticos.",
-		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/quimica_uaupt4.png",
-		price: 250,
-		sinc: "asinc",
-	},
-	{
-		id: 101,
-		name: "Enzimas Biologicas",
-		explanation:
-			"Aprenderás cómo utilizar enzimas biológicas en tus tratamientos de belleza para tratar problemas de la piel, como manchas, arrugas y acné. Nuestros expertos altamente capacitados te guiarán a través de todo el proceso, desde la teoría hasta la práctica, y te enseñarán cómo integrar las enzimas biológicas en tus tratamientos existentes.",
-		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/enzimas_yzyjo0.png",
-		price: 500,
-		sinc: "sinc",
-	},
-	{
-		id: 102,
-		name: "Microimplante Capilar",
-		explanation:
-			"Abre las puertas a un futuro prometedor en tu formación profesional. Aprenderás técnicas avanzadas para devolver la confianza a aquellos que desean recuperar su cabello de forma natural y duradera.",
-		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684154113/micro_h3elyc.png",
-		price: 700,
-		sinc: "sinc",
-	},
-	{
-		id: 103,
-		name: "Master en Peptonas",
-		explanation:
-			"Aprenderás sobre sus propiedades bioquímicas y cómo se aplican en tratamientos faciales y corporales para estimular la regeneración celular y mejorar la elasticidad de la piel.",
-		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
-		price: 900,
-		sinc: "asinc",
-	},
-	{
-		id: 104,
-		name: "Máster en Glúteos",
-		explanation:
-			"¡Eleva tus habilidades en la estética corporal a un nuevo nivel! Aprende las técnicas más avanzadas para tonificar, levantar y esculpir los glúteos, brindando a tus pacientes una figura perfecta para que se sientan más seguros y atractivos.",
-		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
-		paralaximg:
-			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
-		price: 300,
-		sinc: "asinc",
-		modules: [
-			{
-				id: "1",
-				name: "introduccion",
-				modules:
-					"Presentación y generalidades. Region glútea. Topografía glútea. Recepción del paciente. Historía clínica adaptada. Mesa de trabajo. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriostatico. Diferencia entre asépticos. Bioseguridad ",
-			},
-			{
-				id: "2",
-				name: "Guteos Piel",
-				modules:
-					"Presentación y generalidades. Region glútea. Topografía glútea. Recepción del paciente. Historía clínica adaptada. Mesa de trabajo. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriostatico. Diferencia entre asépticos. Bioseguridad ",
-			},
-		],
-	},
-	{
-		id: 105,
 		name: "Máster en Peeling",
 		explanation:
 			"¡Eleva tus habilidades en rejuvenecimiento facial! Aprende las técnicas avanzadas de peeling químico para lograr una piel radiante y rejuvenecida.",
@@ -195,19 +134,19 @@ export const cursos = [
 				id: "1",
 				name: "introduccion",
 				modules:
-					"Presentación y generalidades. Anatomía y fisiología de la piel. Sistema tegumentario. Manto hidrolipídico. Biotipos cutáneos y fototipos. Envejecimiento cutáneo. Lesiones elementales.",
+					"Presentación y generalidades. Anatomía y fisiología de la piel. Sistema tegumentario. Manto hidrolipídico. Biotipos cutáneos y fototipos. Envejecimiento cutáneo. Lesiones elementales",
 			},
 			{
 				id: "2",
 				name: "2",
 				modules:
-					"Proceso de cicatrización. Recepción del paciente. Semiología. Historía clínica adaptada. Definición y clasificación de peeling. Indicaciones. Indicaciones pre peeling. Principios de bioseguridad. Preparación de la piel.",
+					"Proceso de cicatrización. Recepción del paciente. Semiología. Historía clínica adaptada. Definición y clasificación de peeling. Indicaciones. Indicaciones pre peeling. Principios de bioseguridad. Preparación de la piel",
 			},
 			{
 				id: "3",
 				name: "3",
 				modules:
-					"PEELING NATURAL: Impacto del sol sobre la piel y su descamación. PEELING BIOLÓGICO: Peeling enzimatico. Ácido retinoico. PEELING MECÁNICO: Scrub. Microdermoabrasión. Punta de diamantes. Espátula ultrasónica. Dermaplaning. PEELING FÍSICO: Criopeel. Laser co2 fraccionado. Resurfacing.",
+					"PEELING NATURAL: Impacto del sol sobre la piel y su descamación. PEELING BIOLÓGICO: Peeling enzimatico. Ácido retinoico. PEELING MECÁNICO: Scrub. Microdermoabrasión. Punta de diamantes. Espátula ultrasónica. Dermaplaning. PEELING FÍSICO: Criopeel. Laser co2 fraccionado. Resurfacing",
 			},
 			{
 				id: "4",
@@ -219,13 +158,13 @@ export const cursos = [
 				id: "5",
 				name: "PATOLOGÍAS DERMATOLÓGICAS Y PROTOCOLOS CON PEELING.",
 				modules:
-					"Proceso de melanogénesis. Luz de Wood. Hiperpigmentaciones. Melasma y cloasma. Acné. Secuelas de Acné. Pieles sensibles y rosácea. Envejecimiento y fotoenvejecimiento. Estrías. Cicatrices. Combinaciones con otros tratamientos. Indicaciones post peeling. Apoyo domiciliario. Complicaciones y su resolución. Caso clínico. Conclusiones.",
+					"Proceso de melanogénesis. Luz de Wood. Hiperpigmentaciones. Melasma y cloasma. Acné. Secuelas de Acné. Pieles sensibles y rosácea. Envejecimiento y fotoenvejecimiento. Estrías. Cicatrices. Combinaciones con otros tratamientos. Indicaciones post peeling. Apoyo domiciliario. Complicaciones y su resolución. Caso clínico. Conclusiones",
 			},
 			{
 				id: "6",
 				name: "Practica",
 				modules:
-					"Peeling láser co2 facial. Peeling TCA facial. Peeling enzimático, mecánico y químico facial. Peeling mecánico y químico corporal.",
+					"Peeling láser co2 facial. Peeling TCA facial. Peeling enzimático, mecánico y químico facial. Peeling mecánico y químico corporal",
 			},
 		],
 		objetives:
@@ -245,11 +184,196 @@ export const cursos = [
 			},
 		],
 	},
-	// {
-	//   id: 106,
-	//   name: "Máster en Hilos Cosmetológicos",
-	//   explanation: 'Transforma rostros, cambiando para bien las vidas de tus pacientes. Aprenderás a aplicar técnicas vanguardistas para reducir la flacidez facial y obtener resultados duraderos y espectaculares.',
-	//   img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1683417380/trat2_g6rszk.png",
-	//   price: 1000
-	// }
+	{
+		id: 102,
+		name: "MÁSTER EN HILOS COSMETOLÓGICOS",
+		explanation:
+			"¡Sumérgete en el fascinante mundo de los hilos cosméticos! Amplía tus conocimientos y habilidades en este innovador campo para ofrecer resultados sorprendentes en rejuvenecimiento facial y corporal.",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "sinc",
+		modules: [
+			{
+				id: "1",
+				name: "1",
+				modules:
+					"Presentación y generalidades. Anatomía de superficie facial. Sistema Tegumentario. Envejecimiento cutáneo. Escala Glogau. Análisis facial. Planimetría facial. Estética regenerativa. Bioestimulación. Lesiones elementales cutáneas.",
+			},
+			{
+				id: "2",
+				name: "2",
+				modules:
+					"Análisis cutáneo. Fototipos cutáneos. Biotipos cutáneos. Generación de historia clínica. Hilos tópicos. Definición y Clasificación. Farmacología aplicada, conocimiento de los principales activos. Péptidos en estética. Mecanismo de acción. Marcas de hilos tópicos. Mesa de trabajo. Dermapen. Electroporación. Fotobiomodulación.",
+			},
+			{
+				id: "3",
+				name: "3",
+				modules:
+					"Protocolo facial. Marcación facial. Nano botox. Hilos nube. Protocolo corporal. Marcación corporal, será más orientado a la ptosis glútea. Técnica. Dispositivos utilizados para la técnica. Procedimientos no invasivos realizados con la técnica. Procedimiento mínimamente invasivo realizado con la técnica. Complemento con otras aparatologías para el uso facial y corporal, antes y después de la técnica, para el mejor resultado. Contraindicaciones. Complicaciones y su resolución",
+			},
+			{
+				id: "4",
+				name: "Practica",
+				modules:
+					"Hilos liquidos y solidos faciales con dermapen y fotobiomodulacion. Hilos liquidos y solidos faciales con dermapen y electroporador. Hilos liquidos corporales con microdermoabrasion y electroporador.",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia de los distintos tratamientos con hilos cosmetologicos. Conocer la mesa de trabajo y los materiales necesarios para realizar el tratamiento. Analizar distintos casos en donde se deba realizar hilos cosmetologicos y conocer su justificacion medica. Generacion de protocolos combinados con hilos cosmetologicos. Conocer el manejo de complicaciones. Consentimiento informado",
+		includes:
+			"Grabación de las 3 clases teóricas y de la clase práctica. Acceso ilimitado a las grabaciones. Coffee break. Kit de bioseguridad para la práctica (camisolin, cofia, guantes). Kit de estudio (carpera, hojas, lapicera). Manual científico de estudio digital. Diploma digital. Asistencia y asesoría post-curso a través de WhatsApp",
+		modality: [
+			{
+				name: "teoria",
+				description:
+					"14, 15 y 16 de Junio, de 13 a 15hs. Modalidad online por Zoom.",
+			},
+			{
+				name: "practica",
+				description:
+					" 17 de Junio de 14hs a 18hs. Modalidad presencial u online.",
+			},
+		],
+	},
+	{
+		id: 103,
+		name: "TÉCNICA Y OPERACIÓN DE VELA",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Cuerpo humano. Planimetría anatómica. Célula. Tejidos. Sistema tegumentario. Tejido graso. Metabolización grasa. Sistema linfático. ",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"Tecnologías del Vela. Radiofrecuencia. Vacumterapia. Láser de Diodo. Rodillos masajeadores. Repercusión a nivel fisiológico y anatómico. Zonas a tratar. Tiempo de la sesión. Modo de aplicación y distintas configuraciones. Indicaciones. Contraindicaciones. ",
+			},
+			{
+				id: "3",
+				name: "MÓDULO 3",
+				modules: "Marcas. Adiposidad localizada. Flacidez. Celulitis. ",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia de fundamentos en el manejo de vela. Conocer los materiales necesarios para realizar los tratamientos. Analizar tratamientos, y conocer su justificación científica. Generación de protocolos combinados. Conocer el manejo de complicaciones",
+		includes:
+			"Grabación de las 3 clases teóricas y de la clase práctica. Acceso ilimitado a las grabaciones. Manual científico de estudio digital. Diploma digital. Asistencia y asesoría post-curso a través de WhatsApp",
+		modality: [
+			{
+				name: "asincronico",
+				description: "Enviamos Informacion detallada al email",
+			},
+		],
+	},
+	{
+		id: 104,
+		name: "SCULPTRA",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 50000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "Temario",
+				modules:
+					"Factores del envejecimiento - principales cambios morfológicos. Historia, legislación y conceptos. Ácido Poli-L-Láctico - indicaciones y mecanismo de acción. Efectos inmediatos, recomendaciones, contraindicaciones, cuidados y diluciones / aplicaciones antes y después de la aplicación. Reacciones posteriores a la aplicación, complicaciones, anatomía facial, complicaciones y complicaciones.",
+			},
+			{
+				id: "2",
+				name: "Contenido práctico",
+				modules:
+					"• Dilución de Sculptra - paso 1. • Dilución de Sculptra - paso 2. • Cara - marcado y aplicación. • Cuello - marcado y aplicación. • Aplicaciones de la celulitis - técnica de la aguja (aplicación puntual). • Aplicaciones en Glúteos - técnica de la aguja. • Aplicaciones en Glúteos - técnica Con cánula. • Aplicaciones de brazo (flacidez) - técnica de aplicación con agujas. • Dilución para aplicación corporal. • Bioestimuladores para aplicación en la región glútea (con cánula) - parte 1. • Bioestimuladores para aplicación en la región glútea (con cánula) - parte 2. • Bioestimuladores para la celulitis. • Bioestimuladores para aplicación en la región glútea (con aguja). • Bioestimuladores para aplicación en la región del brazo.",
+			},
+		],
+		objetives: "completar ",
+		includes:
+			"Grabación de las 3 clases. Acceso ilimitado a las grabaciones. Diploma digital. Acceso a grupo de WhatsApp",
+		modality: [
+			{
+				name: "asincronico",
+				description: "Enviamos Informacion detallada al email",
+			},
+		],
+	},
+	{
+		id: 105,
+		name: "MÁSTER EN PLASMA RICO EN PLAQUETAS",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: "COMPLETAR",
+		priceext: "COMPLETAR",
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Introducción. Generalidades. Medicina regenerativa. Biorevitalización. Bioplastía. Sistema Tegumentario. Biotipos y Fototipos. Envejecimiento cutáneo. Clasificación de Glogau. Lesiones elementales cutáneas",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"Fisiología sanguínea. Plasma. Suero. Parámetros hematológicos normales. Plaquetas. Funciones. Hemostasia. Regeneración tisular. Factores de Crecimiento. Mecanismo de Acción. Proceso de cicatrización. Indicaciones. Contraindicaciones. Absolutas y relativas. Indicaciones pre procedimiento. Mesa de trabajo. Principios de bioseguridad. Preparación del paciente",
+			},
+			{
+				id: "3",
+				name: "PREPARACIÓN PLASMA",
+				modules:
+					"Obtención de plasma sanguíneo. Extracción. Centrifugación. Activación de plaquetas. Preparación plasma gel. Bioplastia con filler PRP. Ley nacional de sangre. Artículo 58 y 59. Disposición de ANMAT sobre el plasma autólogo rico en plaquetas. Ozonización de PRP",
+			},
+			{
+				id: "4",
+				name: "PROTOCOLOS CAPILAR Y FACIAL",
+				modules:
+					"PRP CAPILAR: Tricología. Alopecia. Mesoterapia. Dermapen. Ozonoterapia. Fotobiomodulación. PRP FACIAL: Mesoterapia. Dermapen. Microneedling plasma. Vampire facelift. Máscaras de plasma pobre en plaquetas. Fotobiomodulación. Skinbooster. Cicatrices. Vitiligo",
+			},
+			{
+				id: "5",
+				name: "PROTOCOLOS CORPORAL Y BIOPLASTIA CON RELLENO AUTÓLOGO",
+				modules:
+					"Bioplastia facial con plasma gel. PRP CORPORAL: Cicatrices. Estrías. Celulitis. Vitiligo. Subcisión con plasma en poceado celulítico. Complemento con otros tratamientos. Indicaciones post. Apoyo domiciliario. Complicaciones y resolución de las mismas. Discusión de caso clínico",
+			},
+			{
+				id: "6",
+				name: "Práctica",
+				modules:
+					"Extracción de sangre venosa. Centrifugación de sangre. Aspiración de PRP. Activación de PRP. Facial aguja 30g con diferentes técnicas de Mesoterapia. Facial con agujas MISAWA. Facial nanosoft. Skinbooster facial con CÁNULAS. Capilar con aguja 32g 4mm. Vampire facelift. Plasma rico ozonizado en manos. Microneedling plasma facial. Microneedling plasma capilar. BIOPLASTIA con plasma gel en PÓMULOS y mentón",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia de los distintos tratamientos con PRP. Conocer la mesa de trabajo y los materiales necesarios para realizar el tratamiento. Analizar distintos casos en donde se deba realizar PRP y conocer su justificación médica. Generación de protocolos combinados con PRP. Conocer el manejo de complicaciones. Consentimiento informado",
+		includes:
+			"Grabación de las clases. Acceso ilimitado a las grabaciones. Diploma digital. Acceso a grupo de WhatsApp",
+		modality: [
+			{
+				name: "Teoría",
+				description: "4 clases grabadas de 2hs cada una",
+			},
+			{
+				name: "Práctica asincrónica",
+				description:
+					"Videos prácticos demostrativos de las técnicas paso a paso.",
+			},
+		],
+	},
 ];

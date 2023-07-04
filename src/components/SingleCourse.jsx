@@ -179,25 +179,54 @@ const SingleCourse = () => {
 										</h2>
 									</div>
 								</Parallax>
-								<div className="grid grid-cols-1 md:grid-cols-2 w-full mx-auto text-center py-14 gap-6">
-									{curso.modality.map((punto, index) => (
-										<div key={index} className="w-full ">
-											<h4 className="text-2xl font-semibold uppercase">
-												{punto.name}
-											</h4>
-											{punto.description
-												.split(". ")
-												.map((punto, index) => (
-													<p
-														key={index}
-														className="text-xl italic"
-													>
-														{punto}
-													</p>
-												))}
-										</div>
-									))}
-								</div>
+								{console.log(curso.modality.length)}
+								{curso.modality.length === 1 ? (
+									<div className="grid grid-cols-1 w-full mx-auto text-center py-14 gap-6">
+										{curso.modality.map((punto, index) => (
+											<div
+												key={index}
+												className="w-full "
+											>
+												<h4 className="text-2xl font-semibold uppercase">
+													{punto.name}
+												</h4>
+												{punto.description
+													.split(". ")
+													.map((punto, index) => (
+														<p
+															key={index}
+															className="text-xl italic"
+														>
+															{punto}
+														</p>
+													))}
+											</div>
+										))}
+									</div>
+								) : (
+									<div className="grid grid-cols-1 md:grid-cols-2 w-full mx-auto text-center py-14 gap-6">
+										{curso.modality.map((punto, index) => (
+											<div
+												key={index}
+												className="w-full "
+											>
+												<h4 className="text-2xl font-semibold uppercase">
+													{punto.name}
+												</h4>
+												{punto.description
+													.split(". ")
+													.map((punto, index) => (
+														<p
+															key={index}
+															className="text-xl italic"
+														>
+															{punto}
+														</p>
+													))}
+											</div>
+										))}
+									</div>
+								)}
 							</div>
 						)}
 					</div>
@@ -231,6 +260,18 @@ const SingleCourse = () => {
 								<p>
 									Pueden abonar mediante transferencia
 									bancaria o a través de Mercado pago.{" "}
+									<span className="italic text-lg">
+										Solicitar datos.
+									</span>
+								</p>
+								<p>
+									Alumnos extranjeros:{" "}
+									<span className="font-bold">
+										{curso.priceext} USD
+									</span>{" "}
+								</p>
+								<p>
+									Pueden abonar a través de Paypal.{" "}
 									<span className="italic text-lg">
 										Solicitar datos.
 									</span>
