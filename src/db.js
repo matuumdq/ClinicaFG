@@ -130,58 +130,6 @@ export const cursos = [
 	},
 	{
 		id: 101,
-		name: "Enzimas Biologicas",
-		explanation:
-			"Aprenderás cómo utilizar enzimas biológicas en tus tratamientos de belleza para tratar problemas de la piel, como manchas, arrugas y acné. Nuestros expertos altamente capacitados te guiarán a través de todo el proceso, desde la teoría hasta la práctica, y te enseñarán cómo integrar las enzimas biológicas en tus tratamientos existentes.",
-		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/enzimas_yzyjo0.png",
-		price: 500,
-		sinc: "sinc",
-	},
-	{
-		id: 102,
-		name: "Microimplante Capilar",
-		explanation:
-			"Abre las puertas a un futuro prometedor en tu formación profesional. Aprenderás técnicas avanzadas para devolver la confianza a aquellos que desean recuperar su cabello de forma natural y duradera.",
-		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684154113/micro_h3elyc.png",
-		price: 700,
-		sinc: "sinc",
-	},
-	{
-		id: 103,
-		name: "Master en Peptonas",
-		explanation:
-			"Aprenderás sobre sus propiedades bioquímicas y cómo se aplican en tratamientos faciales y corporales para estimular la regeneración celular y mejorar la elasticidad de la piel.",
-		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
-		price: 900,
-		sinc: "asinc",
-	},
-	{
-		id: 104,
-		name: "Máster en Glúteos",
-		explanation:
-			"¡Eleva tus habilidades en la estética corporal a un nuevo nivel! Aprende las técnicas más avanzadas para tonificar, levantar y esculpir los glúteos, brindando a tus pacientes una figura perfecta para que se sientan más seguros y atractivos.",
-		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
-		paralaximg:
-			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
-		price: 300,
-		sinc: "asinc",
-		modules: [
-			{
-				id: "1",
-				name: "introduccion",
-				modules:
-					"Presentación y generalidades. Region glútea. Topografía glútea. Recepción del paciente. Historía clínica adaptada. Mesa de trabajo. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriostatico. Diferencia entre asépticos. Bioseguridad ",
-			},
-			{
-				id: "2",
-				name: "Guteos Piel",
-				modules:
-					"Presentación y generalidades. Region glútea. Topografía glútea. Recepción del paciente. Historía clínica adaptada. Mesa de trabajo. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriostatico. Diferencia entre asépticos. Bioseguridad ",
-			},
-		],
-	},
-	{
-		id: 105,
 		name: "Máster en Peeling",
 		explanation:
 			"¡Eleva tus habilidades en rejuvenecimiento facial! Aprende las técnicas avanzadas de peeling químico para lograr una piel radiante y rejuvenecida.",
