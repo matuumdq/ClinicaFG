@@ -121,66 +121,49 @@ export const tratamientos = [
 export const cursos = [
 	{
 		id: 100,
-		name: "Máster en Peeling",
+		name: "INTRODUCCIÓN A LA MEDICINA ORTOMOLECULAR",
 		explanation:
-			"¡Eleva tus habilidades en rejuvenecimiento facial! Aprende las técnicas avanzadas de peeling químico para lograr una piel radiante y rejuvenecida.",
+			"Exploraremos los fundamentos de esta disciplina, sus principios y aplicaciones en el campo de la salud.",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
 		paralaximg:
 			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
-		price: 300,
+		price: 30000,
+		priceext: 200,
 		sinc: "sinc",
 		modules: [
 			{
 				id: "1",
-				name: "introduccion",
+				name: "MÓDULO 1",
 				modules:
-					"Presentación y generalidades. Anatomía y fisiología de la piel. Sistema tegumentario. Manto hidrolipídico. Biotipos cutáneos y fototipos. Envejecimiento cutáneo. Lesiones elementales",
+					"Introducción y generalidades. Definición. Historia. Indicaciones. Contraindicaciones. Biología celular. Mitocondria. Óxido-reducción. Radicales libres. Sistemas y moléculas antioxidantes. Envejecimiento celular. Telómeros. Colágeno. Vitaminas. Minerales. Aminoácidos. Proteínas y péptidos. Oligoelementos",
 			},
 			{
 				id: "2",
-				name: "2",
+				name: "MÓDULO 2",
 				modules:
-					"Proceso de cicatrización. Recepción del paciente. Semiología. Historía clínica adaptada. Definición y clasificación de peeling. Indicaciones. Indicaciones pre peeling. Principios de bioseguridad. Preparación de la piel",
+					"Fundamentos de la nutrición ortomolecular. Regulaciones legales. Objetivos. Ventajas y Desventajas. Consulta médica. Laboratorio a pedir. Estudios paraclínicos. Vías de administración. Tipos de soluciones intravenosas. Implicaciones nutricionales en el manejo de patologías de piel. Vitamina C. Biodisponibilidad de péptidos. Restricción calórica/ayuno y longevidad. Intoxicación por metales pesados",
 			},
 			{
 				id: "3",
-				name: "3",
+				name: "MÓDULO 3",
 				modules:
-					"PEELING NATURAL: Impacto del sol sobre la piel y su descamación. PEELING BIOLÓGICO: Peeling enzimatico. Ácido retinoico. PEELING MECÁNICO: Scrub. Microdermoabrasión. Punta de diamantes. Espátula ultrasónica. Dermaplaning. PEELING FÍSICO: Criopeel. Laser co2 fraccionado. Resurfacing",
-			},
-			{
-				id: "4",
-				name: "PEELING QUÍMICO",
-				modules:
-					"Presentaciones. Ácidos. Concentraciones y pH. Clasificación de ácidos. Alfahidroxiacidos. Betahidroxiácidos. Polihidroxiácidos. Mandélico. Glicólico. Salicílico. Retinóico. Tranexámico. Fenol. TCA. Peelings químicos combinados. Factores que influyen en la profundidad",
-			},
-			{
-				id: "5",
-				name: "PATOLOGÍAS DERMATOLÓGICAS Y PROTOCOLOS CON PEELING.",
-				modules:
-					"Proceso de melanogénesis. Luz de Wood. Hiperpigmentaciones. Melasma y cloasma. Acné. Secuelas de Acné. Pieles sensibles y rosácea. Envejecimiento y fotoenvejecimiento. Estrías. Cicatrices. Combinaciones con otros tratamientos. Indicaciones post peeling. Apoyo domiciliario. Complicaciones y su resolución. Caso clínico. Conclusiones",
-			},
-			{
-				id: "6",
-				name: "Practica",
-				modules:
-					"Peeling láser co2 facial. Peeling TCA facial. Peeling enzimático, mecánico y químico facial. Peeling mecánico y químico corporal",
+					"Protocolos. Quelaciones. Oral e intravenosa. Terapias de reemplazo. Sueros y recomendaciones dietéticas. Manejo domiciliario. Antiage: Vit C, D-, Ribosa. Sulfato de Magnesio. Glutation. NAC. Complejo B. Myers. Suero Antiestrés. Triptófano. Glutation. Complejo B. Sulfato de Mg. Fenilalanina. Ácido alfa lipoico",
 			},
 		],
 		objetives:
-			"Introducir a las/os participantes en el conocimiento y asistencia de los distintos tratamientos de Peeling. Conocer la mesa de trabajo y los materiales necesarios para realizar el tratamiento. Analizar distintos casos en donde se deba realizar peeling y conocer su justificación médica. Generación de protocolos combinados con peeling. Conocer el manejo de complicaciones. Consentimiento informado",
+			"Incluir a las/os alumnos en el conocimiento, asistencia y manejo del tratamiento de Medicina Ortomolecular. Analizar los casos en donde se deba realizar Medicina Ortomolecular y conocer su justificación médica. Generación de protocolos combinados con Medicina Ortomolecular",
 		includes:
 			"Manual científico de estudio digital. Coffee break. Kit de bioseguridad para la práctica (camisolin, cofia, guantes). Kit de estudio (carpera, hojas, lapicera). Diploma/certificado digital. Apoyo docente por tiempo indefinido. Grabación de todas las clases",
 		modality: [
 			{
 				name: "teoria",
 				description:
-					"8 al 12 de Mayo, de 13 a 15hs. Modalidad online por Zoom.",
+					"12/7, 13/7 y 14/7, de 13:00 a 15:00 horas. Modalidad online por Zoom, quedan grabadas y se envían a todos los participantes.",
 			},
 			{
 				name: "practica",
 				description:
-					"Sábado 13 de Mayo, de 15hs a 19hs. Modalidad presencial u online.",
+					"15/7, de 15:00 a 19:00 horas. Clínica del Dr Franco Gómez (Barrio Recoleta). Se puede hacer de manera presencial o a distancia (se envía material VIDEOGRÁFICO).",
 			},
 		],
 	},
@@ -623,7 +606,7 @@ export const cursos = [
 		objetives:
 			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento de Mesoterapia. Conocer los materiales necesarios para realizar del tratamiento. Analizar tratamientos en donde se deba realizar la mesoterapia y conocer su justificación médica. Generación de protocolos combinados con mesoterapia. Conocer el manejo de complicaciones. Consentimiento informado.",
 		includes:
-			"Manual científico de estudio. 3 videos con la ejecución de la técnica paso a paso: mesoterapia facial, capilar y corporal. Certificado de participación. Acceso a grupo cerrado de WhatsApp. 3 clases grabadas con los siguientes temas.",
+			"Manual científico de estudio. 3 videos con la ejecución de la técnica paso a paso: mesoterapia facial, capilar y corporal. Certificado de participación. Acceso a grupo cerrado de WhatsApp. 3 clases grabadas",
 		modality: [
 			{
 				name: "Completar",
@@ -659,6 +642,244 @@ export const cursos = [
 			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento de Dermapen. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos en donde se deba realizar el Dermapen y conocer su justificación médica. Generación de protocolos combinados con Dermapen. Conocer el manejo de complicaciones",
 		includes:
 			"Manual completo de estudio. Certificado de participación. 2 videos con la ejecución de la técnica paso a paso: dermapen facial, dermapen en estrías. Acceso a grupo cerrado de WhatsApp",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 113,
+		name: "MÁSTER EN CELULITIS",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/dermaplaning_cvkwjl.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Presentación. Generalidades. Sistema Tegumentario. Tejido Adiposo. Sistema circulatorio (venas - arterias - capilares y anatomía). Sistema Linfático ( órganos - linfa - ganglios). Irrigación sanguínea",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"Etiología de la dermopaniculopatía edemato fibrosa (DEF o PEFE). Histología. Fisiopatogenia. Diagnóstico y Signos clínicos. Estadíos evolutivos de PEFE. Clasificación",
+			},
+			{
+				id: "3",
+				name: "MÓDULO 3",
+				modules:
+					"Tratamiento no invasivo. Endermology. Vacumterapia. Ultracavitacion. Crioterapia. Radiofrecuencia. Láser IPL. Presoterapia. Velaslim. Onda de choque. Manejo, mecanismo de acción y protocolos para cada tipo de celulitis. Tratamiento mínimamente invasivo: Subcisión. Carboxiterapia. Enzimas Biológicas. Mesoterapia. Manejo, técnica, mecanismo de acción, activos, protocolos para cada tipo de celulitis",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos en donde se deba realizar y conocer su justificación médica. Conocer el manejo de complicaciones. Saber solucionar las complicaciones",
+		includes:
+			"Manual científico de estudio. Diploma/certificado. Acceso a grupo de WhatsApp. Videos prácticos demostrativos. 3 clases grabadas",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 114,
+		name: "MÁSTER BODY REDUCTION LIPÓLISIS SIN CIRUGÍA",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/bodyred_lt8ygw.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Sistema Tegumentario. Histología y Fisiología del tejido adiposo. Adipócitos: funciones, tipos celulares, morfología, estructura. Metabolismo del tejido adiposo (sustratos, enzimas, productos y metabolitos). Obesidad. Sobrepeso. Adiposidad localizada (Mecanismo y funciones que generaran la misma). Adiposidad localizada (disminuirla mecanismo de acción general). Inflamación. Tratamientos con aparatologías: Criolipolisis, Ondas de choque, Velaslim, Ultracavitación, Hifu, Lipoláser, Carboxiterapias, Radiofrecuencia, Ultrasonido. Como manejar los equipos y combinarlos. Tratamientos inyectables (Mesoterapia coadyuvante lipolítica y fosfatidilcolina). Hidrolipoclasia",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"Principales lipolíticos usados para la adiposidad localizada: Triac, Cafeína, Carnitina, Ampelopsina, Lipasa*, Fosfatidilcolina*. Cómo combinarlos para que el tratamiento contenga un resultado positivo. Modo de aplicación para cada caso. Dieta Cetogénica (Indicaciones, Contraindicaciones). Indicaciones. Selección del paciente ideal. Semiología. Protocolos",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento de Adiposidad localizada. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos en donde se deban realizar estos protocolos y conocer su justificación médica. Generación de protocolos combinados. Conocer el manejo de complicaciones. Consentimiento informado",
+		includes:
+			"Manual científico de estudio. 4 videos con la ejecución de la técnica paso a paso: preparación velaslim, velaslim, ultracavitación, ondas de choque. Certificado de participación. Acceso a grupo cerrado de WhatsApp. 3 clases grabadas",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 114,
+		name: "MASTER BB GLOW Y BB LIPS",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/Hialuron_fwypim.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Introducción. Objetivo. Concepto de BELLEZA. Anatomía Facial. Sistema Tegumentario. Biotipo y fototipo Cutáneo. Envejecimiento Cutáneo. Lesiones elementales. Dermapen (Que es?/Funciones/Características). Historia Microneedling. Técnica Microneedling. Tipos de agujas. Profundidad de acuerdo a zona. Historia BB Glow. Descripción de BB glow. Principales Serums y sus activos. Principales Pigmentos y sus activos. Mecanismo de acción. Piel de Porcelana. Indicaciones. Contraindicaciones. Indicaciones pre. Mesa de Trabajo. Bioseguridad. Historia Clínica. Planimetría Facial. Morfología Facial. Proporción simétrica facial. Técnicas de manejo. Agujas y Profundidades en el bb glow. Protocolo. Indicaciones Post. Complicaciones",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"Visagismo o Contouring. Tipos de Rostros. Técnica Dermoillumination. Fusiones de Pigmentos. Aplicación de los pigmentos en cada tipo morfológico facial. Técnica complementaria. BB Blush. BB Blush y los distintos tipos morfológicos de rostro. Fusión Dermoillumination con BB blush. BB Lips. Anatomía labial. Histologia labial (Mucosa). Planimetría labial. Simetría Labial. Activos utilizados. Pigmentos Utilizados. Dermapen. Cartuchos, Profundidad. Técnica paso a paso. Indicaciones Posteriores",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento de Adiposidad localizada. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos en donde se deban realizar estos protocolos y conocer su justificación médica. Generación de protocolos combinados. Conocer el manejo de complicaciones. Consentimiento informado",
+		includes:
+			"Manual completo de estudio. Certificado de participación. 3 videos con la ejecución de la técnica paso a paso: BB lips, BB glow (técnica piel de porcelana), BB glow (técnica dermoilumination). Acceso a grupo cerrado de WhatsApp. 3 clases grabadas",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 115,
+		name: "MASOTERAPIA DESCONTRACTURANTE Y RELAJANTE",
+		explanation: "Dirigido a todos los profesionales de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/Hialuron_fwypim.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules: "completar",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules: "completar",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia de fundamentos en masoterapia descontracturante y relajante. Conocer los materiales necesarios para realizar los tratamientos. Analizar tratamientos, y conocer su justificación médica. Generación de protocolos combinados. Conocer el manejo de complicaciones",
+		includes:
+			"Manual científico de estudio. Certificado de participación. Acceso a grupo cerrado de WhatsApp. 3 clases grabadas",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 115,
+		name: "INTRODUCCIÓN A LA COSMETOLOGÍA ",
+		explanation:
+			"Dirigido a todos los que quieran incursionar en el mundo de la cosmetología. NO HACE FALTA CONOCIMIENTOS PREVIOS",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/Hialuron_fwypim.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Presentación. Generalidades. Introducción. Anatomía y fisiología del sistema tegumentario. Fototipos. Biotipos. Elementos de trabajo. Bioseguridad e higiene. Lesiones elementales: Primarias, Secundarias. Introducción a la química cosmética: Composición. Vehículos. Combinación correcta de los productos. Principios Activos. Indicación de cada Biotipo. Introducción a la aparatología facial: Punta de diamante. Espátula ultrasónica. Alta frecuencia. Cabina LED. Electroporador. Psicoestética, el abordaje ideal con el paciente. Protocolo de higiene facial. Indicaciones previas. El paso a paso. Modo de contacto con la piel. Introducción al masaje facial. Anamnesis. Consentimiento informado. Ambiente de trabajo. Imagen profesional. Introducción al Marketing digital. Indicaciones domiciliarias",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos en donde se deba realizar y conocer su justificación. Conocer el manejo de complicaciones. Saber solucionar las complicaciones",
+		includes:
+			"Manual científico de estudio. Certificado de participación. 3 videos con la ejecución de la técnica paso a paso: preparación de la piel, peeling quìmico, dermaplaning. Acceso a grupo cerrado de WhatsApp. 6 clases grabadas",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 116,
+		name: "INGENIERÍA FACIAL",
+		explanation: "Dirigido a todos los profesiones de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/Hialuron_fwypim.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Presentación y generalidades. Planos anatómicos. Sistema óseo. Sistema muscular. Sistema venoso facial. Sistema tegumentario. Cambios fisiológicos. Colágeno. Envejecimiento cutáneo. Fuerza aplicada. Planimetría facial. Abordaje clínico. Estética regenerativa. Farmacología aplicada. Bioestimulación. Aparatología facial.",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento de armonización facial. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos en donde se deba realizar el rejuvenecimiento y conocer su justificación médica.",
+		includes:
+			"Certificado de participación. Acceso a grupo cerrado de WhatsApp. 6 clases grabadas",
+		modality: [
+			{
+				name: "Completar",
+				description: "Completar",
+			},
+		],
+	},
+	{
+		id: 116,
+		name: "HYDRAPEN",
+		explanation: "Dirigido a todos los profesiones de la estética",
+		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/Hialuron_fwypim.png",
+		paralaximg:
+			"https://images.squarespace-cdn.com/content/v1/5f68e31d42e3161ee32eb5df/1618512229238-UHOGCUIFLQGXPWMJT1V3/Esthetician4.jpg",
+		price: 20000,
+		priceext: 200,
+		sinc: "asinc",
+		modules: [
+			{
+				id: "1",
+				name: "MÓDULO 1",
+				modules:
+					"Presentación. Generalidades. Sistema Tegumentario. Biotipo y Fototipo Cutáneo. Envejecimiento Cutáneo. Proceso de cicatrización. Lesiones elementales. Hydrapen. Usos. Marcas y modelos. Tipos de agujas. Dermaroller. Usos. Diferencias con Dermapen. Recepción del paciente. Elaboración de historia clínica. Consentimiento Informado. Principios activos utilizados. Mecanismo de acción. Indicaciones. Contraindicaciones. Indicaciones pre. Mesa de trabajo. Bioseguridad.",
+			},
+			{
+				id: "2",
+				name: "MÓDULO 2",
+				modules:
+					"HYDRAPEN CAPILAR: Anatomía y fisiología del cabello. Alopecia. Protocolos. HYDRAPEN FACIAL: Topografía facial. Planos anatómicos. Protocolos para Antiage, flacidez, secuelas de acné, plasma rico. Vampire face lift. Microneedling plasma. Peeling. HYDRAPEN CORPORAL: Flacidez, estrías. Complicaciones y Resoluciones.",
+			},
+		],
+		objetives:
+			"Introducir a las/os participantes en el conocimiento y asistencia del tratamiento de Hydrapen. Conocer los materiales necesarios para realizar el tratamiento. Analizar tratamientos en donde se deba realizar el Hydrapen y conocer su justificación médica. Generación de protocolos combinados con Hydrapen. Conocer el manejo de complicaciones",
+		includes:
+			"Manual científico de estudio. Certificado de participación. Acceso a grupo cerrado de WhatsApp. 3 clases grabadas",
 		modality: [
 			{
 				name: "Completar",

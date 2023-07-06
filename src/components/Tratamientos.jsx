@@ -72,7 +72,7 @@ const Tratamientos = () => {
 				<p className="mx-4 font-thin italic line-clamp-3">
 					{curso.explanation}
 				</p>
-				<div className="flex mx-2">
+				<div className="flex flex-wrap gap-2 mx-2">
 					<a
 						href={msg}
 						target="_blank"
