@@ -293,10 +293,19 @@ const SingleCourse = () => {
 									Todas las clases quedan grabadas y se envían
 									a todos los participantes
 								</p>
+								<a
+									className="uppercase bg-amber-400/50 mx-auto px-6 py-3 font-semibold rounded-md hover:scale-105 ease-in duration-300 text-purple-700 "
+									href={`https://api.whatsapp.com/send?phone=+5491124725859&text=Hola,%20quiero%20link%20de%20pago%20para%20el%20curso:%20${curso.name}`}
+									target="_blank"
+									rel="noreferrer"
+								>
+									Quiero este curso
+								</a>
 							</div>
 							<img
 								src="https://res.cloudinary.com/dnqmez68n/image/upload/v1684786824/pago_spak0m.png"
 								alt=""
+								className="object-contain"
 							/>
 						</div>
 					</div>
