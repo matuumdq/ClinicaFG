@@ -72,6 +72,12 @@ const Tratamientos = () => {
 				<p className="mx-4 font-thin italic line-clamp-3">
 					{curso.explanation}
 				</p>
+				{curso.days && (
+					<div className="mx-4 flex flex-col">
+						<h4>Los dias:</h4>
+						<p className="">{curso.days}</p>
+					</div>
+				)}
 				<div className="flex flex-wrap gap-2 mx-2">
 					<a
 						href={msg}

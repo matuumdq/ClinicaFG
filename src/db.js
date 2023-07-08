@@ -167,6 +167,7 @@ export const cursos = [
 					"15/7, de 15:00 a 19:00 horas. Clínica del Dr Franco Gómez (Barrio Recoleta). Se puede hacer de manera presencial o a distancia (se envía material VIDEOGRÁFICO).",
 			},
 		],
+		days: "12 - 13 - 14 de Julio",
 	},
 	// MÁSTER EN HILOS COSMETOLÓGICOS
 	{
@@ -222,6 +223,7 @@ export const cursos = [
 					" 17 de Junio de 14hs a 18hs. Modalidad presencial u online.",
 			},
 		],
+		days: "12 - 13 - 14 de Junio",
 	},
 	//TÉCNICA Y OPERACIÓN DE VELA
 	{
@@ -580,6 +582,20 @@ export const cursos = [
 			{
 				name: "Completar",
 				description: "Completar",
+			},
+		],
+		disertantes: [
+			{
+				id: 1,
+				name: "Dr. Franco Gómez",
+				especialidad:
+					"Médico clínico UBA. Médico especialista en estética.  Médico especialista en clínica estética y reparadora. Medicina antienvejecimiento. Docente facultad de medicina UBA. Director médico Cicec ",
+			},
+			{
+				id: 2,
+				name: "Ctra. Karina Levatti",
+				especialidad:
+					"Cosmiatra y masoterapeuta. Instructora docente en cosmiatría orthomolecular. Disertadora internacional en nutrición biológica celular.. ",
 			},
 		],
 	},
