@@ -16,7 +16,7 @@ const Work = () => {
 					</button>
 				</Link>
 			</div>
-			<div className="w-full text-center">
+			{/* <div className="w-full text-center">
 				<p className="uppercase text-purple-500/70 font-semibold text-sm">
 					Presencial
 				</p>
@@ -29,7 +29,7 @@ const Work = () => {
 						Ver más
 					</button>
 				</Link>
-			</div>
+			</div> */}
 		</div>
 	);
 };

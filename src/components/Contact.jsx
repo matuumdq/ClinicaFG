@@ -42,7 +42,7 @@ const Contact = () => {
 	return (
 		<section
 			id="contacto"
-			className="bg-white py-10 my-20 lg:my-32 overflow-hidden relative z-10"
+			className="py-10 my-20 lg:my-32 overflow-hidden relative z-10"
 		>
 			<div className="container max-w-screen-xl mx-auto">
 				<div className="flex flex-wrap lg:justify-between -mx-4">

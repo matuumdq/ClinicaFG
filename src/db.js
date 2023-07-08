@@ -119,6 +119,7 @@ export const tratamientos = [
 ];
 
 export const cursos = [
+	// INTRODUCCIÓN A LA MEDICINA ORTOMOLECULAR
 	{
 		id: 100,
 		name: "INTRODUCCIÓN A LA MEDICINA ORTOMOLECULAR",
@@ -167,6 +168,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER EN HILOS COSMETOLÓGICOS
 	{
 		id: 102,
 		name: "MÁSTER EN HILOS COSMETOLÓGICOS",
@@ -221,6 +223,7 @@ export const cursos = [
 			},
 		],
 	},
+	//TÉCNICA Y OPERACIÓN DE VELA
 	{
 		id: 103,
 		name: "TÉCNICA Y OPERACIÓN DE VELA",
@@ -261,6 +264,7 @@ export const cursos = [
 			},
 		],
 	},
+	// SCULPTRA
 	{
 		id: 104,
 		name: "SCULPTRA",
@@ -295,6 +299,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER EN PLASMA RICO EN PLAQUETAS
 	{
 		id: 105,
 		name: "MÁSTER EN PLASMA RICO EN PLAQUETAS",
@@ -359,6 +364,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MICROIMPLANTE CAPILAR
 	{
 		id: 106,
 		name: "MICROIMPLANTE CAPILAR",
@@ -404,6 +410,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER PLASMA FIBROBLAST
 	{
 		id: 107,
 		name: "MÁSTER PLASMA FIBROBLAST",
@@ -449,6 +456,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER ENZIMAS BIOLÓGICAS
 	{
 		id: 108,
 		name: "MÁSTER ENZIMAS BIOLÓGICAS",
@@ -490,6 +498,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER EN RADIOFRECUENCIA
 	{
 		id: 109,
 		name: "MÁSTER EN RADIOFRECUENCIA",
@@ -531,6 +540,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER EN PEPTONAS
 	{
 		id: 110,
 		name: "MÁSTER EN PEPTONAS",
@@ -573,6 +583,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER EN MESOTERAPIA
 	{
 		id: 111,
 		name: "MÁSTER EN MESOTERAPIA",
@@ -614,6 +625,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER EN DERMAPEN
 	{
 		id: 112,
 		name: "MÁSTER EN DERMAPEN",
@@ -649,6 +661,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER EN CELULITIS
 	{
 		id: 113,
 		name: "MÁSTER EN CELULITIS",
@@ -690,6 +703,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MÁSTER BODY REDUCTION LIPÓLISIS SIN CIRUGÍA
 	{
 		id: 114,
 		name: "MÁSTER BODY REDUCTION LIPÓLISIS SIN CIRUGÍA",
@@ -725,6 +739,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MASTER BB GLOW Y BB LIPS
 	{
 		id: 114,
 		name: "MASTER BB GLOW Y BB LIPS",
@@ -760,6 +775,7 @@ export const cursos = [
 			},
 		],
 	},
+	// MASOTERAPIA DESCONTRACTURANTE Y RELAJANTE
 	{
 		id: 115,
 		name: "MASOTERAPIA DESCONTRACTURANTE Y RELAJANTE",
@@ -793,9 +809,10 @@ export const cursos = [
 			},
 		],
 	},
+	// INTRODUCCIÓN A LA COSMETOLOGÍA
 	{
 		id: 115,
-		name: "INTRODUCCIÓN A LA COSMETOLOGÍA ",
+		name: "INTRODUCCIÓN A LA COSMETOLOGÍA",
 		explanation:
 			"Dirigido a todos los que quieran incursionar en el mundo de la cosmetología. NO HACE FALTA CONOCIMIENTOS PREVIOS",
 		img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684155236/Hialuron_fwypim.png",
@@ -823,6 +840,7 @@ export const cursos = [
 			},
 		],
 	},
+	// INGENIERÍA FACIAL
 	{
 		id: 116,
 		name: "INGENIERÍA FACIAL",
@@ -852,6 +870,7 @@ export const cursos = [
 			},
 		],
 	},
+	// HYDRAPEN
 	{
 		id: 116,
 		name: "HYDRAPEN",
