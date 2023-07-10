@@ -121,6 +121,11 @@ export const tratamientos = [
   },
 ];
 
+
+
+
+/* Inicio de los cursos */
+
 export const cursos = [
   {
     id: 0,
@@ -137,6 +142,54 @@ export const cursos = [
       "Aprenderás cómo utilizar enzimas biológicas en tus tratamientos de belleza para tratar problemas de la piel, como manchas, arrugas y acné. Nuestros expertos altamente capacitados te guiarán a través de todo el proceso, desde la teoría hasta la práctica, y te enseñarán cómo integrar las enzimas biológicas en tus tratamientos existentes.",
     img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/enzimas_yzyjo0.png",
     price: 500,
+    modules: [
+      {
+        id: "1",
+        name: "introduccion",
+        modules:
+          "Presentación y generalidades. Region glútea. Topografía glútea. Envejecimiento glúteo. Ptosis glútea. Morfología glútea. Gluteo femenino vs masculino. Recepción del paciente. Historía clínica adaptada. Mesa de trabajo. Bioseguridad. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriost. Diferencia entre asépticos",
+      },
+      {
+        id: "2",
+        name: "Glúteos Piel",
+        modules:
+          "Sistema tegumentario. Colágeno. Ácido hialurónico. Lesiones elementales cutáneas. Discromias Acné. Foliculitis Celulitis Estrías. Flaccidez Peeling mecánico. Físico. Químico Mesoterapia. Peptonas. Radiofrecuencia. Velaslim. Depilación definitiva",
+      },
+      {
+        id: "3",
+        name: "Glúteos Músculo",
+        modules:
+          "Histología, anatomía y fisiología muscular. Peptonas. Endopeel. Gluteox. Glúteo max. Electrodos. Teslagen",
+      },
+      {
+        id: "4",
+        name: "Glúteos Adiposidad",
+        modules:
+          "Histología, anatomía y fisiología adipositaria. Lipodistrofia. Lipólisis Mesoterapia. Fosfatidilcolina. Enzimas biológicas lipolíticas. Criolipólisis. Ultracavitador. Velaslim. Celulitis y adiposidad localizada. Carboxiterapia. Ozonoterapia. Subsicion adipositaria. ",
+      },
+      {
+        id: "5",
+        name: "Otras Técnicas",
+        modules:
+          "Gluteopexia. Hilos búlgaros. Electrodos. Tesla. Bioplastia glútea. Rellenos glúteos. Ácido polilactico. Ácido hialuronico. Vacumterapia",
+      },
+    ],
+    objetives:
+      "✔️Introducir a las/os participantes en el conocimiento y asistencia de los distintos tratamientos glúteos. ✔️Conocer la mesa de trabajo y los materiales necesarios para realizar los diferentes tratamientos. ✔️Analizar distintos casos en donde se deban realizar tratamientos glúteos y conocer su justificación médica. ✔️Generación de protocolos combinados. ✔️Conocer el manejo de complicaciones",
+    includes:
+      "Manual científico de estudio digital. Coffee break. Kit de bioseguridad para la práctica (camisolin, cofia, guantes). Kit de estudio (carpera, hojas, lapicera). Diploma/certificado digital. Apoyo docente por tiempo indefinido. Grabación de todas las clases",
+    modality: [
+      {
+        name: "teoria",
+        description:
+          "8 al 12 de Mayo, de 13 a 15hs. Modalidad online por Zoom.",
+      },
+      {
+        name: "practica",
+        description:
+          "Sábado 13 de Mayo, de 15hs a 19hs. Modalidad presencial u online.",
+      },
+    ],
   },
   {
     id: 2,
@@ -145,6 +198,54 @@ export const cursos = [
       "Abre las puertas a un futuro prometedor en tu formación profesional. Aprenderás técnicas avanzadas para devolver la confianza a aquellos que desean recuperar su cabello de forma natural y duradera.",
     img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684154113/micro_h3elyc.png",
     price: 700,
+    modules: [
+      {
+        id: "1",
+        name: "introduccion",
+        modules:
+          "Presentación y generalidades. Region glútea. Topografía glútea. Envejecimiento glúteo. Ptosis glútea. Morfología glútea. Gluteo femenino vs masculino. Recepción del paciente. Historía clínica adaptada. Mesa de trabajo. Bioseguridad. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriost. Diferencia entre asépticos",
+      },
+      {
+        id: "2",
+        name: "Glúteos Piel",
+        modules:
+          "Sistema tegumentario. Colágeno. Ácido hialurónico. Lesiones elementales cutáneas. Discromias Acné. Foliculitis Celulitis Estrías. Flaccidez Peeling mecánico. Físico. Químico Mesoterapia. Peptonas. Radiofrecuencia. Velaslim. Depilación definitiva",
+      },
+      {
+        id: "3",
+        name: "Glúteos Músculo",
+        modules:
+          "Histología, anatomía y fisiología muscular. Peptonas. Endopeel. Gluteox. Glúteo max. Electrodos. Teslagen",
+      },
+      {
+        id: "4",
+        name: "Glúteos Adiposidad",
+        modules:
+          "Histología, anatomía y fisiología adipositaria. Lipodistrofia. Lipólisis Mesoterapia. Fosfatidilcolina. Enzimas biológicas lipolíticas. Criolipólisis. Ultracavitador. Velaslim. Celulitis y adiposidad localizada. Carboxiterapia. Ozonoterapia. Subsicion adipositaria. ",
+      },
+      {
+        id: "5",
+        name: "Otras Técnicas",
+        modules:
+          "Gluteopexia. Hilos búlgaros. Electrodos. Tesla. Bioplastia glútea. Rellenos glúteos. Ácido polilactico. Ácido hialuronico. Vacumterapia",
+      },
+    ],
+    objetives:
+      "✔️Introducir a las/os participantes en el conocimiento y asistencia de los distintos tratamientos glúteos. ✔️Conocer la mesa de trabajo y los materiales necesarios para realizar los diferentes tratamientos. ✔️Analizar distintos casos en donde se deban realizar tratamientos glúteos y conocer su justificación médica. ✔️Generación de protocolos combinados. ✔️Conocer el manejo de complicaciones",
+    includes:
+      "Manual científico de estudio digital. Coffee break. Kit de bioseguridad para la práctica (camisolin, cofia, guantes). Kit de estudio (carpera, hojas, lapicera). Diploma/certificado digital. Apoyo docente por tiempo indefinido. Grabación de todas las clases",
+    modality: [
+      {
+        name: "teoria",
+        description:
+          "8 al 12 de Mayo, de 13 a 15hs. Modalidad online por Zoom.",
+      },
+      {
+        name: "practica",
+        description:
+          "Sábado 13 de Mayo, de 15hs a 19hs. Modalidad presencial u online.",
+      },
+    ],
   },
   {
     id: 3,
@@ -153,6 +254,54 @@ export const cursos = [
       "Aprenderás sobre sus propiedades bioquímicas y cómo se aplican en tratamientos faciales y corporales para estimular la regeneración celular y mejorar la elasticidad de la piel.",
     img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684153270/peptonas_yqgae7.png",
     price: 900,
+    modules: [
+      {
+        id: "1",
+        name: "introduccion",
+        modules:
+          "Presentación y generalidades. Region glútea. Topografía glútea. Envejecimiento glúteo. Ptosis glútea. Morfología glútea. Gluteo femenino vs masculino. Recepción del paciente. Historía clínica adaptada. Mesa de trabajo. Bioseguridad. Esterilización. Asepsia. Bacteriológico. Bactericida. Bacteriost. Diferencia entre asépticos",
+      },
+      {
+        id: "2",
+        name: "Glúteos Piel",
+        modules:
+          "Sistema tegumentario. Colágeno. Ácido hialurónico. Lesiones elementales cutáneas. Discromias Acné. Foliculitis Celulitis Estrías. Flaccidez Peeling mecánico. Físico. Químico Mesoterapia. Peptonas. Radiofrecuencia. Velaslim. Depilación definitiva",
+      },
+      {
+        id: "3",
+        name: "Glúteos Músculo",
+        modules:
+          "Histología, anatomía y fisiología muscular. Peptonas. Endopeel. Gluteox. Glúteo max. Electrodos. Teslagen",
+      },
+      {
+        id: "4",
+        name: "Glúteos Adiposidad",
+        modules:
+          "Histología, anatomía y fisiología adipositaria. Lipodistrofia. Lipólisis Mesoterapia. Fosfatidilcolina. Enzimas biológicas lipolíticas. Criolipólisis. Ultracavitador. Velaslim. Celulitis y adiposidad localizada. Carboxiterapia. Ozonoterapia. Subsicion adipositaria. ",
+      },
+      {
+        id: "5",
+        name: "Otras Técnicas",
+        modules:
+          "Gluteopexia. Hilos búlgaros. Electrodos. Tesla. Bioplastia glútea. Rellenos glúteos. Ácido polilactico. Ácido hialuronico. Vacumterapia",
+      },
+    ],
+    objetives:
+      "✔️Introducir a las/os participantes en el conocimiento y asistencia de los distintos tratamientos glúteos. ✔️Conocer la mesa de trabajo y los materiales necesarios para realizar los diferentes tratamientos. ✔️Analizar distintos casos en donde se deban realizar tratamientos glúteos y conocer su justificación médica. ✔️Generación de protocolos combinados. ✔️Conocer el manejo de complicaciones",
+    includes:
+      "Manual científico de estudio digital. Coffee break. Kit de bioseguridad para la práctica (camisolin, cofia, guantes). Kit de estudio (carpera, hojas, lapicera). Diploma/certificado digital. Apoyo docente por tiempo indefinido. Grabación de todas las clases",
+    modality: [
+      {
+        name: "teoria",
+        description:
+          "8 al 12 de Mayo, de 13 a 15hs. Modalidad online por Zoom.",
+      },
+      {
+        name: "practica",
+        description:
+          "Sábado 13 de Mayo, de 15hs a 19hs. Modalidad presencial u online.",
+      },
+    ],
   },
   {
     id: 4,
