@@ -61,7 +61,11 @@ const Tratamientos = () => {
 				className="flex flex-col cursor-default pb-5 gap-3 border border-gray-400/40 w-full min-h-[15vh] h-auto rounded-md shadow-md"
 			>
 				<div className="absolute z-10 text-white mx-4 mt-2 px-2 py-1 rounded-lg bg-amber-400/80 cursor-default">
-					${curso.price}
+					{curso.price ? (
+						<p>${curso.price}</p>
+					) : (
+						<p>${curso.priceext} USD</p>
+					)}
 				</div>
 				<img
 					className="object-cover w-full rounded-t-md"
@@ -72,6 +76,12 @@ const Tratamientos = () => {
 				<p className="mx-4 font-thin italic line-clamp-3">
 					{curso.explanation}
 				</p>
+				{curso.days && (
+					<div className="mx-4 flex flex-col">
+						<h4>Los dias:</h4>
+						<p className="">{curso.days}</p>
+					</div>
+				)}
 				<div className="flex flex-wrap gap-2 mx-2">
 					<a
 						href={msg}

@@ -83,8 +83,8 @@ const SingleCourse = () => {
 						</div>
 					)}
 				</div>
-				{/* Objetivos */}
 				<div className="mx-auto">
+					{/* Objetivos */}
 					<div className="w-full">
 						{curso.objetives && (
 							<div>
@@ -230,7 +230,54 @@ const SingleCourse = () => {
 							</div>
 						)}
 					</div>
-
+					{/* Disertantes */}
+					{curso.disertantes && (
+						<div>
+							<Parallax
+								bgImage={curso.paralaximg}
+								bgImageAlt={curso.name}
+								strength={200}
+								className=""
+							>
+								<div className="w-full min-h-[20vh] flex flex-col justify-center items-center ">
+									<h2 className="h-full w-full text-center uppercase font-mono font-bold text-xl md:text-5xl text-white">
+										Disertantes
+									</h2>
+								</div>
+							</Parallax>
+							<div className="flex flex-wrap py-8 gap-14 mx-5 justify-center">
+								{curso.disertantes.map((modu) => (
+									<div className="relative" key={modu.id}>
+										<h3 className="font-bold uppercase">
+											{modu.name}
+										</h3>
+										{modu.especialidad
+											.split(". ")
+											.map((punto, index) => {
+												const titulo = punto.substring(
+													0,
+													punto.indexOf(":") + 1
+												);
+												const contenido =
+													punto.substring(
+														punto.indexOf(":") + 1
+													);
+												return (
+													<div key={index}>
+														<h3 className="font-bold uppercase">
+															{titulo}
+														</h3>
+														<p className="font-thin text-lg pl-3">
+															{contenido}.
+														</p>
+													</div>
+												);
+											})}
+									</div>
+								))}
+							</div>
+						</div>
+					)}
 					{/* Precio */}
 					<div className="flex flex-col gap-3 my-5 ">
 						<Parallax

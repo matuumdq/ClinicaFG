@@ -42,10 +42,10 @@ const Contact = () => {
 	return (
 		<section
 			id="contacto"
-			className="bg-white py-10 my-20 lg:my-32 overflow-hidden relative z-10"
+			className="py-10 my-20 lg:my-32 overflow-hidden relative z-10"
 		>
-			<div className="container max-w-screen-xl mx-auto">
-				<div className="flex flex-wrap lg:justify-between -mx-4">
+			<div className="max-w-screen-xl mx-5 xl:mx-auto">
+				<div className="flex flex-wrap lg:justify-between">
 					<div className="w-full lg:w-1/2 xl:w-6/12 px-4">
 						<div className="max-w-[570px] mx-5 mb-12 lg:mb-0">
 							<span className="block mb-4 text-sm text-harvest-gold-300 tracking-widest font-semibold">
@@ -76,7 +76,7 @@ const Contact = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-full lg:w-1/2 xl:w-5/12 px-4">
+					<div className="w-full lg:w-1/2 xl:w-5/12 px-4 lg:m-0">
 						<div className="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
 							<form ref={form} onSubmit={sendEmail}>
 								<div className="mb-6">
