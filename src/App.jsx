@@ -6,6 +6,7 @@ import Tratamientos from "./components/Tratamientos";
 import ContactPage from "./components/ContactPage";
 import SingleCourse from "./components/SingleCourse";
 import { useEffect } from "react";
+import Insumos from "./components/Insumos";
 
 function App() {
 	function ScrollToTop() {
@@ -26,6 +27,7 @@ function App() {
 					<Route index element={<Home />} />
 					<Route path="/conocenos" element={<KnowUs />} />
 					<Route path="/cursos" element={<Tratamientos />} />
+					<Route path="/insumos" element={<Insumos />} />
 					{/* <Route
 						path="/tratamientos/:name"
 						element={<SingleTrat />}
