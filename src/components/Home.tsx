@@ -7,8 +7,6 @@ import Buy from './Buy'
 import Supplies from './Supplies'
 import Workshop from './Workshop'
 import Carousel from './Carousel'
-import Form from './Form'
-import VideoPlayer from './VideoPlayer'
 import Contact from './Contact'
 
 const Home = () => {
