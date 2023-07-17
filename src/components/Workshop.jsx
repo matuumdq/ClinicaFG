@@ -14,11 +14,11 @@ const Workshop = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-full mx-10 mt-12 md:mx-20">
                 <img src="https://res.cloudinary.com/dnqmez68n/image/upload/v1683327126/324266760_211730717890594_8405018690220587156_n_m9tzjn.jpg" alt="tratamiento" />
-                <img src="https://res.cloudinary.com/dnqmez68n/image/upload/v1683327126/324266760_211730717890594_8405018690220587156_n_m9tzjn.jpg" alt="tratamiento" />
-                <img src="https://res.cloudinary.com/dnqmez68n/image/upload/v1683327126/324266760_211730717890594_8405018690220587156_n_m9tzjn.jpg" alt="tratamiento" />
-                <img src="https://res.cloudinary.com/dnqmez68n/image/upload/v1683327126/324266760_211730717890594_8405018690220587156_n_m9tzjn.jpg" alt="tratamiento" />
-                <img src="https://res.cloudinary.com/dnqmez68n/image/upload/v1683327126/324266760_211730717890594_8405018690220587156_n_m9tzjn.jpg" alt="tratamiento" />
-                <img src="https://res.cloudinary.com/dnqmez68n/image/upload/v1683327126/324266760_211730717890594_8405018690220587156_n_m9tzjn.jpg" alt="tratamiento" />
+                <img src="https://res.cloudinary.com/dft5lntsa/image/upload/v1689617336/IMG-20220608-WA0025_d2nrm7.jpg" alt="tratamiento" />
+                <img src="https://res.cloudinary.com/dft5lntsa/image/upload/v1689617284/EST-3_mda9cj.jpg" alt="tratamiento" />
+                <img src="https://res.cloudinary.com/dft5lntsa/image/upload/v1689617337/IMG_1095_okjj6e.jpg" alt="tratamiento" />
+                <img src="https://res.cloudinary.com/dft5lntsa/image/upload/v1689617336/IMG-20220531-WA0012_g2wbmi.jpg" alt="tratamiento" />
+                <img src="https://res.cloudinary.com/dft5lntsa/image/upload/v1689617336/IMG-20220420-WA0023_omptn4.jpg" alt="tratamiento" />
             </div>
         </div>
     </div>
